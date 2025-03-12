@@ -12,7 +12,7 @@ const MainRoutes = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="*" element={<PageNotFound />} />
-        <Route path="/detail" element={<MovieDetail />} />
+        <Route path="/detail/:name" element={<MovieDetail />} />
       </Routes>
       <Footer />
     </BrowserRouter>

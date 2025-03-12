@@ -1,31 +1,36 @@
-import React from "react";
+import React, { use } from "react";
+import { Carousel } from "antd";
+import { useParams } from "react-router-dom";
+import moment from "moment";
+
 import "./MovieDetail.scss";
+const contentStyle = {
+  textAlign: "center",
+  color: "white",
+};
+import data from "../../../mock/homepage/homepage.json";
+import { convertDates, getTimes } from "./usecases/MovieDetail";
 const MovieDetail = () => {
+  const { name } = useParams();
+  const dates = convertDates(data);
+  const times = getTimes(data);
+  console.log("times: ", times);
+
   return (
     <div>
-      <div className="BannerMovie">
+      <div
+        style={{ backgroundImage: `url(${data[0]?.bposter})` }}
+        className="BannerMovie"
+      >
         <div className="popular-movie-slider">
-          <img
-            src="https://imageio.forbes.com/blogs-images/scottmendelson/files/2014/10/2v00kg8.jpg?format=jpg&width=1200"
-            className="poster"
-          />
+          <img src={data[0]?.sposter} className="poster" />
           <div className="popular-movie-slider-content">
-            <p className="release">2017</p>
-            <h2 className="movie-name">Interstellar</h2>
+            <p className="release">{data[0]?.date}</p>
+            <h2 className="movie-name">{data[0]?.name}</h2>
             <ul className="category">
-              <p>Science fiction</p>
-              <li>drama</li>
-              <li>action</li>
+              <p>{data[0]?.genre}</p>
             </ul>
-            <p className="desc">
-              Interstellar is a 2014 epic science fiction film co-written,
-              directed, and produced by Christopher Nolan. It stars Matthew
-              McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen
-              Burstyn, Matt Damon, and Michael Caine. Set in a dystopian future
-              where humanity is embroiled in a catastrophic blight and famine,
-              the film follows a group of astronauts who travel through a
-              wormhole near Saturn in search of a new home for humankind.
-            </p>
+            <p className="desc">{data[0]?.description}</p>
             <div className="movie-info">
               <i className="fa fa-clock-o">
                 <span>164 min.</span>
@@ -35,7 +40,7 @@ const MovieDetail = () => {
               </i>
               <i className="fa fa-circle">
                 <span>
-                  Imdb: <b>9.1/10</b>
+                  Rate: <b>{data[0]?.rate}</b>
                 </span>
               </i>
             </div>
@@ -57,31 +62,26 @@ const MovieDetail = () => {
           <div className="choose-date">
             <p className="heading">choose date:</p>
             <div className="wrapper">
-              <div className="carousel owl-carousel">
-                <div className="card card-1">
-                  <p>JUN 1t</p>
-                  <p>MON</p>
-                </div>
-                <div className="card card-2">
-                  <p>JUN 2nd</p>
-                  <p>TUE</p>
-                </div>
-                <div className="card card-3">
-                  <p>JUN 3nd</p>
-                  <p>wed</p>
-                </div>
-                <div className="card card-4">
-                  <p>JUN 4nd</p>
-                  <p>thu</p>
-                </div>
-              </div>
+              <Carousel style={contentStyle} dots={false} arrows>
+                {dates.map((dateString, index) => {
+                  const date = moment(dateString, "dddd, DD/MM/YYYY");
+                  return (
+                    <div key={index} className="card">
+                      <p className="text-gray-500">{date.format("MMM Do")}</p>
+                      <p className="text-2xl">
+                        {date.format("ddd").toUpperCase()}
+                      </p>
+                    </div>
+                  );
+                })}
+              </Carousel>
               <div className="marker" />
             </div>
           </div>
           <div className="choose-time">
-            <p className="heading">avalible times:</p>
+            <p className="heading">available times:</p>
             <div className="wrapper">
-              <div className="carousel owl-carousel">
+              {/* <div className="carousel owl-carousel">
                 <div className="card card-1">
                   <p>3D</p>
                   <p>14:45</p>
@@ -98,7 +98,15 @@ const MovieDetail = () => {
                   <p>3D</p>
                   <p>13:00</p>
                 </div>
-              </div>
+              </div> */}
+              <Carousel style={contentStyle} dots={false} arrows>
+                {dates.map((time, index) => (
+                  <div key={index} className="card">
+                    <p className="text-gray-500">3D</p>
+                    <p className="text-2xl">{time}</p>
+                  </div>
+                ))}
+              </Carousel>
               <div className="marker" />
             </div>
           </div>
