@@ -9,187 +9,900 @@
     "type": "series",
     "url": "the boys.html",
     "trailer": "john wick.webm",
-    "high": "src/app/assets/video/theboys.webm"
+    "high": "src/app/assets/video/theboys.webm",
+    "description": "Bộ phim kể về một nhóm người hùng bí mật chiến đấu chống lại các siêu anh hùng đã bị tha hóa do quyền lực và danh tiếng. Với nội dung đen tối và bạo lực, The Boys mang đến góc nhìn trần trụi về thế giới siêu anh hùng.",
+    "cgv_locations": [
+      {
+        "name": "CGV Vincom Center Bà Triệu",
+        "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:30",
+            "date": "2025-03-13",
+            "seats_available": 85,
+            "total_seats": 120
+          },
+          {
+            "time": "13:45",
+            "date": "2025-03-13",
+            "seats_available": 62,
+            "total_seats": 120
+          },
+          {
+            "time": "18:30",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 120
+          }
+        ]
+      },
+      {
+        "name": "CGV Aeon Mall Long Biên",
+        "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+        "showtime": [
+          {
+            "time": "09:15",
+            "date": "2025-03-13",
+            "seats_available": 90,
+            "total_seats": 150
+          },
+          {
+            "time": "14:00",
+            "date": "2025-03-13",
+            "seats_available": 70,
+            "total_seats": 150
+          },
+          {
+            "time": "20:15",
+            "date": "2025-03-13",
+            "seats_available": 25,
+            "total_seats": 150
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Money Heist",
     "rate": 9.9,
     "date": "2020",
-    "sposter": "img/money heist.jpg",
-    "bposter": "img/money heist1.jpg",
+    "sposter": "src/app/assets/img/money heist.jpg",
+    "bposter": "src/app/assets/img/money heist1.jpg",
     "genre": "Action",
     "type": "series",
     "url": "money heist.html",
     "trailer": "money heist trailer.mp4",
-
-    "high": "video/money heist 1080ph.mp4"
+    "high": "src/app/assets/video/jurasic world.webm",
+    "description": "Bộ phim kể về một nhóm tội phạm do Giáo sư lãnh đạo thực hiện vụ cướp táo bạo nhất trong lịch sử Tây Ban Nha, nhắm vào Nhà máy in tiền Hoàng gia. Với các tập phim đầy gay cấn và bất ngờ, Money Heist đã trở thành hiện tượng toàn cầu.",
+    "cgv_locations": [
+      {
+        "name": "CGV Vincom Metropolis Liễu Giai",
+        "address": "Tầng 5, Vincom Metropolis, 29 Liễu Giai, Ba Đình, Hà Nội",
+        "showtime": [
+          {
+            "time": "11:00",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 100
+          },
+          {
+            "time": "15:30",
+            "date": "2025-03-13",
+            "seats_available": 48,
+            "total_seats": 100
+          },
+          {
+            "time": "19:45",
+            "date": "2025-03-13",
+            "seats_available": 20,
+            "total_seats": 100
+          }
+        ]
+      },
+      {
+        "name": "CGV Saigonres Nguyễn Xí",
+        "address": "Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P.26, Q.Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:00",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 130
+          },
+          {
+            "time": "13:30",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 130
+          },
+          {
+            "time": "21:00",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 130
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "John Wick",
     "rate": 9.8,
     "date": "2022",
-    "sposter": "img/Jhon Wick.jpg",
-    "bposter": "img/jhon wick1.webp",
+    "sposter": "src/app/assets/img/Jhon Wick.jpg",
+    "bposter": "src/app/assets/img/jhon wick1.webp",
     "genre": "Action",
     "type": "movie",
     "url": "jhon wick.html",
     "trailer": "john wick trailer.mp4",
-
-    "high": "video/Jhon Wick 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "John Wick là câu chuyện về một sát thủ huyền thoại đã nghỉ hưu nhưng buộc phải quay lại thế giới ngầm để trả thù sau khi bị tấn công bởi con trai của một trùm mafia. Phim nổi tiếng với những cảnh hành động mãn nhãn và phong cách đặc biệt.",
+    "cgv_locations": [
+      {
+        "name": "CGV Landmark 81",
+        "address": "Tầng B1, Landmark 81, 720A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:30",
+            "date": "2025-03-13",
+            "seats_available": 95,
+            "total_seats": 180
+          },
+          {
+            "time": "12:45",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 180
+          },
+          {
+            "time": "17:30",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 180
+          },
+          {
+            "time": "21:15",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 180
+          }
+        ]
+      },
+      {
+        "name": "CGV Pearl Plaza",
+        "address": "Tầng 5, Pearl Plaza, 561A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:15",
+            "date": "2025-03-13",
+            "seats_available": 80,
+            "total_seats": 140
+          },
+          {
+            "time": "14:30",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 140
+          },
+          {
+            "time": "18:00",
+            "date": "2025-03-13",
+            "seats_available": 25,
+            "total_seats": 140
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Ant Man",
     "rate": 8.9,
     "date": "2017",
-    "sposter": "img/ant man.jpg",
-    "bposter": "img/ant man1.jpg",
+    "sposter": "src/app/assets/img/ant man.jpg",
+    "bposter": "src/app/assets/img/ant man1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "ant man.html",
     "trailer": "john wick trailer.mp4",
-    "low": "video/ant man 480ph.mp4",
-    "medium": "video/ant man 720ph.mp4",
-    "high": "video/ant man 1080ph.mp4"
+    "high": "src/app/assets/video/theboys.webm",
+    "description": "Scott Lang, một tên trộm có kỹ năng, được nhà khoa học Hank Pym tuyển chọn làm Người Kiến mới. Với bộ giáp đặc biệt có thể thu nhỏ kích thước nhưng tăng sức mạnh, Scott phải thực hiện một phi vụ quan trọng để cứu thế giới khỏi mối đe dọa công nghệ nguy hiểm.",
+    "cgv_locations": [
+      {
+        "name": "CGV Hùng Vương Plaza",
+        "address": "Tầng 7, Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:45",
+            "date": "2025-03-13",
+            "seats_available": 70,
+            "total_seats": 120
+          },
+          {
+            "time": "13:15",
+            "date": "2025-03-13",
+            "seats_available": 55,
+            "total_seats": 120
+          },
+          {
+            "time": "19:30",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 120
+          }
+        ]
+      },
+      {
+        "name": "CGV Vincom Royal City",
+        "address": "Tầng B2, Vincom Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:00",
+            "date": "2025-03-13",
+            "seats_available": 80,
+            "total_seats": 150
+          },
+          {
+            "time": "15:15",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 150
+          },
+          {
+            "time": "20:30",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 150
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Avengers",
     "rate": 9.9,
     "date": "2012",
-    "sposter": "img/avengers.jpg",
-    "bposter": "img/avengers1.jpg",
+    "sposter": "src/app/assets/img/avengers.jpg",
+    "bposter": "src/app/assets/img/avengers1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "avengers.html",
     "trailer": "john wick trailer.mp4",
-
-    "high": "video/avengers 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "Khi mối đe dọa từ ngoài không gian xuất hiện qua Tesseract, Nick Fury - Giám đốc S.H.I.E.L.D. - đã tập hợp đội Avengers gồm những siêu anh hùng mạnh nhất Trái Đất bao gồm Iron Man, Thor, Captain America, Hulk, Black Widow và Hawkeye để ngăn chặn Loki và đạo quân Chitauri xâm lược.",
+    "cgv_locations": [
+      {
+        "name": "CGV Crescent Mall",
+        "address": "Tầng 5, Crescent Mall, 101 Tôn Dật Tiên, Quận 7, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:45",
+            "date": "2025-03-13",
+            "seats_available": 85,
+            "total_seats": 160
+          },
+          {
+            "time": "14:45",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 160
+          },
+          {
+            "time": "19:00",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 160
+          }
+        ]
+      },
+      {
+        "name": "CGV Vincom Times City",
+        "address": "Tầng B1, Vincom Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội",
+        "showtime": [
+          {
+            "time": "11:30",
+            "date": "2025-03-13",
+            "seats_available": 90,
+            "total_seats": 170
+          },
+          {
+            "time": "16:00",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 170
+          },
+          {
+            "time": "20:45",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 170
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Moon Knight",
     "rate": 7.3,
     "date": "2022",
-    "sposter": "img/moon knight.jpg",
-    "bposter": "img/moon knight1.webp",
+    "sposter": "src/app/assets/img/moon knight.jpg",
+    "bposter": "src/app/assets/img/moon knight1.webp",
     "genre": "Action",
     "type": "series",
     "url": "moon knight.html",
     "trailer": "john wick trailer.mp4",
-    "low": "video/moon knight 480ph.mp4",
-    "medium": "video/moon knight 720ph.mp4",
-    "high": "video/moon knight 1080ph.mp4"
+    "high": "src/app/assets/video/theboys.webm",
+    "description": "Moon Knight kể về Steven Grant, một nhân viên cửa hàng quà tặng hiền lành, bị rối loạn đa nhân cách. Anh phát hiện mình chia sẻ cơ thể với Marc Spector - một cựu lính đánh thuê và hóa thân của thần Khonshu. Khi kẻ thù nguy hiểm xuất hiện, họ phải học cách hợp tác để bảo vệ thế giới.",
+    "cgv_locations": [
+      {
+        "name": "CGV Liberty Citypoint",
+        "address": "Tầng 3, Liberty Citypoint, 59-61 Pasteur, Quận 1, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:30",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 120
+          },
+          {
+            "time": "14:15",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 120
+          },
+          {
+            "time": "18:45",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 120
+          }
+        ]
+      },
+      {
+        "name": "CGV Tràng Tiền Plaza",
+        "address": "Tầng 5, Tràng Tiền Plaza, 24 Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
+        "showtime": [
+          {
+            "time": "11:15",
+            "date": "2025-03-13",
+            "seats_available": 70,
+            "total_seats": 130
+          },
+          {
+            "time": "15:30",
+            "date": "2025-03-13",
+            "seats_available": 55,
+            "total_seats": 130
+          },
+          {
+            "time": "20:00",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 130
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Kota Factory",
     "rate": 9.6,
     "date": "2020",
-    "sposter": "img/kota factory.jpg",
-    "bposter": "img/kota factory1.webp",
+    "sposter": "src/app/assets/img/kota factory.jpg",
+    "bposter": "src/app/assets/img/kota factory1.webp",
     "genre": "Action",
     "type": "series",
     "url": "kota factory.html",
     "trailer": "john wick trailer.mp4",
-
-    "high": "video/kota factory 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "Kota Factory là series phim Ấn Độ đen trắng kể về cuộc sống của các học sinh tại thành phố Kota, nổi tiếng với các trung tâm luyện thi đại học. Bộ phim theo chân Vaibhav, một học sinh mới đến Kota, và thầy giáo Jeetu Bhaiya, người hướng dẫn anh trong hành trình học tập đầy thử thách.",
+    "cgv_locations": [
+      {
+        "name": "CGV Aeon Mall Bình Tân",
+        "address": "Tầng 3, Aeon Mall Bình Tân, 1 Đường số 17A, Bình Tân, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:15",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 140
+          },
+          {
+            "time": "13:30",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 140
+          },
+          {
+            "time": "17:45",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 140
+          }
+        ]
+      },
+      {
+        "name": "CGV Lotte Mart Đống Đa",
+        "address": "Tầng 4, Lotte Mart Đống Đa, 228 Tây Sơn, Đống Đa, Hà Nội",
+        "showtime": [
+          {
+            "time": "11:45",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 125
+          },
+          {
+            "time": "15:00",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 125
+          },
+          {
+            "time": "19:15",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 125
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Collage Romance",
     "rate": 7.9,
     "date": "2021",
-    "sposter": "img/collage romance.jpg",
-    "bposter": "img/collage romance1.jpg",
+    "sposter": "src/app/assets/img/collage romance.jpg",
+    "bposter": "src/app/assets/img/collage romance1.jpg",
     "genre": "Action",
     "type": "series",
     "url": "collage romance.html",
     "trailer": "john wick trailer.mp4",
-    "high": "video/collage romance 1080ph.mp4"
+    "high": "src/app/assets/video/theboys.webm",
+    "description": "Collage Romance kể về cuộc sống tình cảm của các sinh viên đại học trong khuôn viên trường. Bộ phim khám phá những mối quan hệ phức tạp, tình bạn và tình yêu đầu đời, cùng với những thử thách học tập và định hướng tương lai mà các nhân vật phải đối mặt trong những năm tháng thanh xuân.",
+    "cgv_locations": [
+      {
+        "name": "CGV Vincom Thủ Đức",
+        "address": "Tầng 5, Vincom Thủ Đức, 216 Võ Văn Ngân, Quận Thủ Đức, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:00",
+            "date": "2025-03-13",
+            "seats_available": 70,
+            "total_seats": 130
+          },
+          {
+            "time": "12:30",
+            "date": "2025-03-13",
+            "seats_available": 55,
+            "total_seats": 130
+          },
+          {
+            "time": "18:15",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 130
+          }
+        ]
+      },
+      {
+        "name": "CGV Artemis Hà Nội",
+        "address": "Tầng 6, Artemis, 3 Lê Trọng Tấn, Thanh Xuân, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:30",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 120
+          },
+          {
+            "time": "14:00",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 120
+          },
+          {
+            "time": "19:00",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 120
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Thor Love Of Thunder",
     "rate": 8.8,
     "date": "2022",
-    "sposter": "img/thor love of thunder.jpg",
-    "bposter": "img/thor love of thunder1.avif",
+    "sposter": "src/app/assets/img/thor love of thunder.jpg",
+    "bposter": "src/app/assets/img/thor love of thunder1.avif",
     "genre": "Action",
     "type": "movie",
     "url": "thor love of thunder.html",
     "trailer": "john wick trailer.mp4",
-    "high": "video/thor love of thunder 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "Thor: Love and Thunder theo chân Thần Sấm trong hành trình tìm kiếm bình yên nội tâm sau sự kiện Endgame. Tuy nhiên, Thor buộc phải trở lại hành động khi Gorr - Kẻ Đồ Tể Thần Linh - xuất hiện với mục tiêu tiêu diệt tất cả các vị thần. Đặc biệt, Jane Foster - người yêu cũ của Thor - giờ đây cũng có thể sử dụng búa Mjolnir và trở thành Nữ thần Sấm.",
+    "cgv_locations": [
+      {
+        "name": "CGV SC Vivo City",
+        "address": "Tầng 5, SC Vivo City, 1058 Nguyễn Văn Linh, Quận 7, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:15",
+            "date": "2025-03-13",
+            "seats_available": 85,
+            "total_seats": 160
+          },
+          {
+            "time": "13:00",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 160
+          },
+          {
+            "time": "17:30",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 160
+          },
+          {
+            "time": "21:00",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 160
+          }
+        ]
+      },
+      {
+        "name": "CGV Aeon Mall Hà Đông",
+        "address": "Tầng 3, Aeon Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:30",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 150
+          },
+          {
+            "time": "14:45",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 150
+          },
+          {
+            "time": "19:30",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 150
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Uncharted",
     "rate": 9.8,
     "date": "2022",
-    "sposter": "img/uncharted.webp",
-    "bposter": "img/uncharted1.jpg",
+    "sposter": "src/app/assets/img/uncharted.webp",
+    "bposter": "src/app/assets/img/uncharted1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "uncharted.html",
     "trailer": "john wick trailer.mp4",
-    "low": "video/uncharted 480ph.mp4",
-    "medium": "video/uncharted 720ph.mp4",
-    "high": "video/uncharted 1080ph.mp4"
-  },
-  {
-    "name": "Eesho",
-    "rate": 8.2,
-    "date": "2022",
-    "sposter": "img/eesho.jpeg",
-    "bposter": "img/eesho1.jpg",
-    "genre": "Action",
-    "type": "movie",
-    "url": "eesho.html",
-    "trailer": "john wick trailer.mp4",
-    "high": "video/eesho 1080ph.mp4"
+    "high": "src/app/assets/video/jurasic world.webm",
+    "description": "Uncharted kể về cuộc phiêu lưu của Nathan Drake, một thợ săn kho báu trẻ tuổi và Victor Sullivan, người cố vấn giàu kinh nghiệm. Cả hai bắt đầu hành trình nguy hiểm đi tìm kho báu của Ferdinand Magellan trị giá 5 tỷ đô-la đã mất tích cách đây 500 năm, đồng thời truy tìm người anh trai mất tích của Nathan.",
+    "cgv_locations": [
+      {
+        "name": "CGV Sunrise City",
+        "address": "Tầng 5, Sunrise City Central, 23-25-27 Nguyễn Hữu Thọ, Quận 7, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:15",
+            "date": "2025-03-13",
+            "seats_available": 80,
+            "total_seats": 150
+          },
+          {
+            "time": "14:30",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 150
+          },
+          {
+            "time": "19:45",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 150
+          }
+        ]
+      },
+      {
+        "name": "CGV Sun Grand City Thụy Khuê",
+        "address": "Tầng 5, Sun Grand City, 69B Thụy Khuê, Tây Hồ, Hà Nội",
+        "showtime": [
+          {
+            "time": "09:45",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 140
+          },
+          {
+            "time": "13:15",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 140
+          },
+          {
+            "time": "18:30",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 140
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Top Gun",
     "rate": 8.0,
     "date": "2022",
-    "sposter": "img/topgun.jpg",
-    "bposter": "img/topgun1.jpg",
+    "sposter": "src/app/assets/img/topgun.jpg",
+    "bposter": "src/app/assets/img/topgun1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "topgun.html",
     "trailer": "john wick trailer.mp4",
-    "low": "video/topgun 480ph.mp4",
-    "medium": "video/topgun 720ph.mp4",
-    "high": "video/topgun 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "Bộ phim kể về một nhóm tội phạm do Giáo sư lãnh đạo thực hiện vụ cướp táo bạo nhất trong lịch sử Tây Ban Nha, nhắm vào Nhà máy in tiền Hoàng gia. Với các tập phim đầy gay cấn và bất ngờ, Money Heist đã trở thành hiện tượng toàn cầu.",
+    "cgv_locations": [
+      {
+        "name": "CGV Vincom Metropolis Liễu Giai",
+        "address": "Tầng 5, Vincom Metropolis, 29 Liễu Giai, Ba Đình, Hà Nội",
+        "showtime": [
+          {
+            "time": "11:00",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 100
+          },
+          {
+            "time": "15:30",
+            "date": "2025-03-13",
+            "seats_available": 48,
+            "total_seats": 100
+          },
+          {
+            "time": "19:45",
+            "date": "2025-03-13",
+            "seats_available": 20,
+            "total_seats": 100
+          }
+        ]
+      },
+      {
+        "name": "CGV Saigonres Nguyễn Xí",
+        "address": "Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P.26, Q.Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:00",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 130
+          },
+          {
+            "time": "13:30",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 130
+          },
+          {
+            "time": "21:00",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 130
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Jurassic World",
     "rate": 8.0,
     "date": "2022",
-    "sposter": "img/jurassic world.jpg",
-    "bposter": "img/jurassic world1.jpg",
+    "sposter": "src/app/assets/img/jurassic world.jpg",
+    "bposter": "src/app/assets/img/jurassic world1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "jurassic world.html",
     "trailer": "john wick trailer.mp4",
-    "high": "video/jurassic world 1080ph.mp4"
+    "high": "src/app/assets/video/theboys.webm src/app/assets/video/jurasic world.webm",
+    "description": "Thor: Love and Thunder theo chân Thần Sấm trong hành trình tìm kiếm bình yên nội tâm sau sự kiện Endgame. Tuy nhiên, Thor buộc phải trở lại hành động khi Gorr - Kẻ Đồ Tể Thần Linh - xuất hiện với mục tiêu tiêu diệt tất cả các vị thần. Đặc biệt, Jane Foster - người yêu cũ của Thor - giờ đây cũng có thể sử dụng búa Mjolnir và trở thành Nữ thần Sấm.",
+    "cgv_locations": [
+      {
+        "name": "CGV SC Vivo City",
+        "address": "Tầng 5, SC Vivo City, 1058 Nguyễn Văn Linh, Quận 7, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:15",
+            "date": "2025-03-13",
+            "seats_available": 85,
+            "total_seats": 160
+          },
+          {
+            "time": "13:00",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 160
+          },
+          {
+            "time": "17:30",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 160
+          },
+          {
+            "time": "21:00",
+            "date": "2025-03-13",
+            "seats_available": 50,
+            "total_seats": 160
+          }
+        ]
+      },
+      {
+        "name": "CGV Aeon Mall Hà Đông",
+        "address": "Tầng 3, Aeon Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:30",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 150
+          },
+          {
+            "time": "14:45",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 150
+          },
+          {
+            "time": "19:30",
+            "date": "2025-03-13",
+            "seats_available": 35,
+            "total_seats": 150
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Eternals",
     "rate": 9.0,
     "date": "2022",
-    "sposter": "img/eternals.jpg",
-    "bposter": "img/eternals1.webp",
+    "sposter": "src/app/assets/img/eternals.jpg",
+    "bposter": "src/app/assets/img/eternals1.webp",
     "genre": "Action",
     "type": "movie",
     "url": "eternals.html",
     "trailer": "john wick trailer.mp4",
-
-    "high": "video/eternals 1080ph.mp4"
+    "high": "src/app/assets/video/theboys.webm",
+    "description": "Scott Lang, một tên trộm có kỹ năng, được nhà khoa học Hank Pym tuyển chọn làm Người Kiến mới. Với bộ giáp đặc biệt có thể thu nhỏ kích thước nhưng tăng sức mạnh, Scott phải thực hiện một phi vụ quan trọng để cứu thế giới khỏi mối đe dọa công nghệ nguy hiểm.",
+    "cgv_locations": [
+      {
+        "name": "CGV Hùng Vương Plaza",
+        "address": "Tầng 7, Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:45",
+            "date": "2025-03-13",
+            "seats_available": 70,
+            "total_seats": 120
+          },
+          {
+            "time": "13:15",
+            "date": "2025-03-13",
+            "seats_available": 55,
+            "total_seats": 120
+          },
+          {
+            "time": "19:30",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 120
+          }
+        ]
+      },
+      {
+        "name": "CGV Vincom Royal City",
+        "address": "Tầng B2, Vincom Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+        "showtime": [
+          {
+            "time": "10:00",
+            "date": "2025-03-13",
+            "seats_available": 80,
+            "total_seats": 150
+          },
+          {
+            "time": "15:15",
+            "date": "2025-03-13",
+            "seats_available": 60,
+            "total_seats": 150
+          },
+          {
+            "time": "20:30",
+            "date": "2025-03-13",
+            "seats_available": 45,
+            "total_seats": 150
+          }
+        ]
+      }
+    ]
   },
   {
     "name": "Spider Man",
     "rate": 9.9,
     "date": "2020",
-    "sposter": "img/spiderman.jpg",
-    "bposter": "img/spiderman1.jpg",
+    "sposter": "src/app/assets/img/spiderman.jpg",
+    "bposter": "src/app/assets/img/spiderman1.jpg",
     "genre": "Action",
     "type": "movie",
     "url": "spiderman.html",
     "trailer": "john wick trailer.mp4",
-    "high": "video/spiderman 1080ph.mp4"
+    "high": "src/app/assets/video/john wick.webm",
+    "description": "John Wick là câu chuyện về một sát thủ huyền thoại đã nghỉ hưu nhưng buộc phải quay lại thế giới ngầm để trả thù sau khi bị tấn công bởi con trai của một trùm mafia. Phim nổi tiếng với những cảnh hành động mãn nhãn và phong cách đặc biệt.",
+    "cgv_locations": [
+      {
+        "name": "CGV Landmark 81",
+        "address": "Tầng B1, Landmark 81, 720A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "09:30",
+            "date": "2025-03-13",
+            "seats_available": 95,
+            "total_seats": 180
+          },
+          {
+            "time": "12:45",
+            "date": "2025-03-13",
+            "seats_available": 75,
+            "total_seats": 180
+          },
+          {
+            "time": "17:30",
+            "date": "2025-03-13",
+            "seats_available": 30,
+            "total_seats": 180
+          },
+          {
+            "time": "21:15",
+            "date": "2025-03-13",
+            "seats_available": 40,
+            "total_seats": 180
+          }
+        ]
+      },
+      {
+        "name": "CGV Pearl Plaza",
+        "address": "Tầng 5, Pearl Plaza, 561A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
+        "showtime": [
+          {
+            "time": "10:15",
+            "date": "2025-03-13",
+            "seats_available": 80,
+            "total_seats": 140
+          },
+          {
+            "time": "14:30",
+            "date": "2025-03-13",
+            "seats_available": 65,
+            "total_seats": 140
+          },
+          {
+            "time": "18:00",
+            "date": "2025-03-13",
+            "seats_available": 25,
+            "total_seats": 140
+          }
+        ]
+      }
+    ]
   }
 ]
