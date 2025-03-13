@@ -1,6 +1,7 @@
 import React from "react";
 import data from "../../../mock/homepage/homepage.json";
 import Banner from "./partials/Banner";
+import TitleCards from "./partials/Cards";
 const Home = () => {
   console.log("data: ", data);
 

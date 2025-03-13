@@ -11,9 +11,9 @@ const Header = () => {
       <div className="navbar-left">
         <img src={logo} alt="" />
         <ul>
-          <li>TRANG CHỦ</li>
           <li>PHIM</li>
-          <li>RẠP</li>
+          <li>RẠP CHIẾU PHIM</li>
+          <li>KHUYẾN MÃI</li>
           <li>LIÊN HỆ</li>
         </ul>
       </div>
