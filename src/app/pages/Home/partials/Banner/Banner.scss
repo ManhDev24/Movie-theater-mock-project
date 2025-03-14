@@ -1,25 +1,34 @@
-// .text {
-//     color: white;
-//     font-size: 100px;
-// }
-// .banner img{
-//     width: 100%;
-//     height: 100vh;
-//     object-fit: cover;
-// }
+.home {
+  // background: hsl(0, 0%, 9%);
+  // background: linear-gradient(to right, black, #191919 60%);
+  background-color: black;
+}
 .banner {
   position: relative;
 }
 .banner-img {
   width: 100%;
-  mask-image: linear-gradient(to right, transparent, black 75%);
-  -webkit-mask-image: linear-gradient(to right, transparent, black 75%);
+  height: 100vh;
+  object-fit: cover;
 }
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, transparent, rgba(0, 0, 0, 1) 70%);
+  opacity: 0.8;
+  pointer-events: none;
+}
+
 .banner-caption {
   position: absolute;
   width: 100%;
   padding-left: 6%;
-  bottom: 300px;
+  bottom: 5px;
+  color: white;
 }
 .banner-caption h1 {
   font-size: 50px;
@@ -66,4 +75,29 @@
 }
 .banner-btns .btn.dark-btn:hover {
   background: #6d6d6ee6;
+}
+.more-cards {
+  padding-left: 3%;
+}
+.more-cards .card-list img {
+  object-fit: fill;
+  width: 260px;
+  height: 350px;
+}
+.more-cards .title-cards h2 {
+  color: white;
+  margin-bottom: 8px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.more-cards .card-list .card p {
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bolder;  
 }

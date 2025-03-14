@@ -2,61 +2,214 @@
   {
     "name": "The Boys",
     "rate": 9.3,
-    "date": "2022",
+    "date": "2020",
     "sposter": "../src/app/assets/img/theboys.jpg",
-    "bposter": "../src/app/assets/img/theboys1.jpg",
+    "bposter": "../src/app/assets/img/theboys.jpg",
     "genre": "Action",
     "type": "series",
-    "url": "the boys.html",
-    "trailer": "john wick.webm",
-    "high": "src/app/assets/video/theboys.webm",
+    "url": "the-boys.html",
+    "trailer": "theboys-trailer.webm",
+    "high": "src/app/assets/video/jurasic world.webm",
     "description": "Bộ phim kể về một nhóm người hùng bí mật chiến đấu chống lại các siêu anh hùng đã bị tha hóa do quyền lực và danh tiếng. Với nội dung đen tối và bạo lực, The Boys mang đến góc nhìn trần trụi về thế giới siêu anh hùng.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Vincom Center Bà Triệu",
-        "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "10:30",
-            "date": "2025-03-13",
-            "seats_available": 85,
-            "total_seats": 120
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:45",
-            "date": "2025-03-13",
-            "seats_available": 62,
-            "total_seats": 120
-          },
-          {
-            "time": "18:30",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 120
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              },
+              {
+                "time": "21:15",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              },
+              {
+                "time": "1:15",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              },
+              {
+                "time": "12:15",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Aeon Mall Long Biên",
-        "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "09:15",
-            "date": "2025-03-13",
-            "seats_available": 90,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:00",
-            "date": "2025-03-13",
-            "seats_available": 70,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "20:15",
-            "date": "2025-03-13",
-            "seats_available": 25,
-            "total_seats": 150
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "The Boys: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "The Boys: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -72,54 +225,165 @@
     "type": "series",
     "url": "money heist.html",
     "trailer": "money heist trailer.mp4",
-    "high": "src/app/assets/video/jurasic world.webm",
+    "high": "../src/app/assets/video/jurasic world.webm",
     "description": "Bộ phim kể về một nhóm tội phạm do Giáo sư lãnh đạo thực hiện vụ cướp táo bạo nhất trong lịch sử Tây Ban Nha, nhắm vào Nhà máy in tiền Hoàng gia. Với các tập phim đầy gay cấn và bất ngờ, Money Heist đã trở thành hiện tượng toàn cầu.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Vincom Metropolis Liễu Giai",
-        "address": "Tầng 5, Vincom Metropolis, 29 Liễu Giai, Ba Đình, Hà Nội",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "11:00",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 100
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Money Heist: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Money Heist: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:30",
-            "date": "2025-03-13",
-            "seats_available": 48,
-            "total_seats": 100
-          },
-          {
-            "time": "19:45",
-            "date": "2025-03-13",
-            "seats_available": 20,
-            "total_seats": 100
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Money Heist: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Money Heist: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Saigonres Nguyễn Xí",
-        "address": "Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P.26, Q.Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:00",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 130
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Money Heist: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Money Heist: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:30",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 130
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Money Heist: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Money Heist: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Money Heist: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "21:00",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 130
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TMoney Heist: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Money Heist: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Money Heist: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -137,58 +401,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "John Wick là câu chuyện về một sát thủ huyền thoại đã nghỉ hưu nhưng buộc phải quay lại thế giới ngầm để trả thù sau khi bị tấn công bởi con trai của một trùm mafia. Phim nổi tiếng với những cảnh hành động mãn nhãn và phong cách đặc biệt.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Landmark 81",
-        "address": "Tầng B1, Landmark 81, 720A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:30",
-            "date": "2025-03-13",
-            "seats_available": 95,
-            "total_seats": 180
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "12:45",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 180
-          },
-          {
-            "time": "17:30",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 180
-          },
-          {
-            "time": "21:15",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 180
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Pearl Plaza",
-        "address": "Tầng 5, Pearl Plaza, 561A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:15",
-            "date": "2025-03-13",
-            "seats_available": 80,
-            "total_seats": 140
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:30",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 140
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "18:00",
-            "date": "2025-03-13",
-            "seats_available": 25,
-            "total_seats": 140
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TJohn Wick: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -206,52 +575,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/theboys.webm",
     "description": "Scott Lang, một tên trộm có kỹ năng, được nhà khoa học Hank Pym tuyển chọn làm Người Kiến mới. Với bộ giáp đặc biệt có thể thu nhỏ kích thước nhưng tăng sức mạnh, Scott phải thực hiện một phi vụ quan trọng để cứu thế giới khỏi mối đe dọa công nghệ nguy hiểm.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Hùng Vương Plaza",
-        "address": "Tầng 7, Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:45",
-            "date": "2025-03-13",
-            "seats_available": 70,
-            "total_seats": 120
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:15",
-            "date": "2025-03-13",
-            "seats_available": 55,
-            "total_seats": 120
-          },
-          {
-            "time": "19:30",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 120
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Vincom Royal City",
-        "address": "Tầng B2, Vincom Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:00",
-            "date": "2025-03-13",
-            "seats_available": 80,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Ant Man: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Ant Man: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Ant Man: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:15",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Ant Man: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Ant Man: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Ant Man: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Ant Man: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Ant Man: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "20:30",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 150
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TAnt Man: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Ant Man: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Ant Man: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -269,52 +749,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "Khi mối đe dọa từ ngoài không gian xuất hiện qua Tesseract, Nick Fury - Giám đốc S.H.I.E.L.D. - đã tập hợp đội Avengers gồm những siêu anh hùng mạnh nhất Trái Đất bao gồm Iron Man, Thor, Captain America, Hulk, Black Widow và Hawkeye để ngăn chặn Loki và đạo quân Chitauri xâm lược.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Crescent Mall",
-        "address": "Tầng 5, Crescent Mall, 101 Tôn Dật Tiên, Quận 7, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "10:45",
-            "date": "2025-03-13",
-            "seats_available": 85,
-            "total_seats": 160
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:45",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 160
-          },
-          {
-            "time": "19:00",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 160
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Vincom Times City",
-        "address": "Tầng B1, Vincom Times City, 458 Minh Khai, Hai Bà Trưng, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "11:30",
-            "date": "2025-03-13",
-            "seats_available": 90,
-            "total_seats": 170
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Avengers: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Avengers: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Avengers: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "16:00",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 170
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Avengers: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Avengers: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Avengers: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Avengers: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Avengers: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "20:45",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 170
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TAvengers: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Avengers: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Avengers: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -332,52 +923,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/theboys.webm",
     "description": "Moon Knight kể về Steven Grant, một nhân viên cửa hàng quà tặng hiền lành, bị rối loạn đa nhân cách. Anh phát hiện mình chia sẻ cơ thể với Marc Spector - một cựu lính đánh thuê và hóa thân của thần Khonshu. Khi kẻ thù nguy hiểm xuất hiện, họ phải học cách hợp tác để bảo vệ thế giới.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Liberty Citypoint",
-        "address": "Tầng 3, Liberty Citypoint, 59-61 Pasteur, Quận 1, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:30",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 120
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:15",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 120
-          },
-          {
-            "time": "18:45",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 120
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "John Wick: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "John Wick: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "John Wick: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Tràng Tiền Plaza",
-        "address": "Tầng 5, Tràng Tiền Plaza, 24 Hai Bà Trưng, Hoàn Kiếm, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "11:15",
-            "date": "2025-03-13",
-            "seats_available": 70,
-            "total_seats": 130
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Moon Knight: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Moon Knight: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Moon Knight: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:30",
-            "date": "2025-03-13",
-            "seats_available": 55,
-            "total_seats": 130
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Moon Knight: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Moon Knight: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Moon Knight: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Moon Knight: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Moon Knight: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "20:00",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 130
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TMoon Knight: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Moon Knight: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Moon Knight: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -395,59 +1097,170 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "Kota Factory là series phim Ấn Độ đen trắng kể về cuộc sống của các học sinh tại thành phố Kota, nổi tiếng với các trung tâm luyện thi đại học. Bộ phim theo chân Vaibhav, một học sinh mới đến Kota, và thầy giáo Jeetu Bhaiya, người hướng dẫn anh trong hành trình học tập đầy thử thách.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Aeon Mall Bình Tân",
-        "address": "Tầng 3, Aeon Mall Bình Tân, 1 Đường số 17A, Bình Tân, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "10:15",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 140
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Kota Factory: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Kota Factory: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:30",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 140
-          },
-          {
-            "time": "17:45",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 140
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Kota Factory: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Kota Factory: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Lotte Mart Đống Đa",
-        "address": "Tầng 4, Lotte Mart Đống Đa, 228 Tây Sơn, Đống Đa, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "11:45",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 125
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Kota Factory: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Kota Factory: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:00",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 125
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Kota Factory: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "The Boys: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Kota Factory: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Kota Factory: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "19:15",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 125
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TKota Factory: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Kota Factory: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Kota Factory: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
     ]
   },
   {
-    "name": "Collage Romance",
+    "name": "Thor Love Of Thunder",
     "rate": 7.9,
     "date": "2021",
     "sposter": "../src/app/assets/img/collageromance.jpg",
@@ -455,55 +1268,166 @@
     "genre": "Action",
     "type": "series",
     "url": "collage romance.html",
-    "trailer": "john wick trailer.mp4",
+    "trailer": "Kota Factory trailer.mp4",
     "high": "src/app/assets/video/theboys.webm",
     "description": "Collage Romance kể về cuộc sống tình cảm của các sinh viên đại học trong khuôn viên trường. Bộ phim khám phá những mối quan hệ phức tạp, tình bạn và tình yêu đầu đời, cùng với những thử thách học tập và định hướng tương lai mà các nhân vật phải đối mặt trong những năm tháng thanh xuân.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Vincom Thủ Đức",
-        "address": "Tầng 5, Vincom Thủ Đức, 216 Võ Văn Ngân, Quận Thủ Đức, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:00",
-            "date": "2025-03-13",
-            "seats_available": 70,
-            "total_seats": 130
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Collage Romance: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "12:30",
-            "date": "2025-03-13",
-            "seats_available": 55,
-            "total_seats": 130
-          },
-          {
-            "time": "18:15",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 130
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Collage Romance: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Artemis Hà Nội",
-        "address": "Tầng 6, Artemis, 3 Lê Trọng Tấn, Thanh Xuân, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:30",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 120
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Collage Romance: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:00",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 120
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Collage Romance: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Collage Romance: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "19:00",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 120
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TCollage Romance: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Collage Romance: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Collage Romance: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -518,61 +1442,166 @@
     "genre": "Action",
     "type": "movie",
     "url": "thor love of thunder.html",
-    "trailer": "john wick trailer.mp4",
+    "trailer": "Kota Factory trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "Thor: Love and Thunder theo chân Thần Sấm trong hành trình tìm kiếm bình yên nội tâm sau sự kiện Endgame. Tuy nhiên, Thor buộc phải trở lại hành động khi Gorr - Kẻ Đồ Tể Thần Linh - xuất hiện với mục tiêu tiêu diệt tất cả các vị thần. Đặc biệt, Jane Foster - người yêu cũ của Thor - giờ đây cũng có thể sử dụng búa Mjolnir và trở thành Nữ thần Sấm.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV SC Vivo City",
-        "address": "Tầng 5, SC Vivo City, 1058 Nguyễn Văn Linh, Quận 7, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:15",
-            "date": "2025-03-13",
-            "seats_available": 85,
-            "total_seats": 160
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Thor Love Of Thunder: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:00",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 160
-          },
-          {
-            "time": "17:30",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 160
-          },
-          {
-            "time": "21:00",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 160
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Thor Love Of Thunder: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Aeon Mall Hà Đông",
-        "address": "Tầng 3, Aeon Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:30",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Thor Love Of Thunder: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:45",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Thor Love Of Thunder: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Thor Love Of Thunder: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "19:30",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 150
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TThor Love Of Thunder: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Thor Love Of Thunder: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Thor Love Of Thunder: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -590,52 +1619,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/jurasic world.webm",
     "description": "Uncharted kể về cuộc phiêu lưu của Nathan Drake, một thợ săn kho báu trẻ tuổi và Victor Sullivan, người cố vấn giàu kinh nghiệm. Cả hai bắt đầu hành trình nguy hiểm đi tìm kho báu của Ferdinand Magellan trị giá 5 tỷ đô-la đã mất tích cách đây 500 năm, đồng thời truy tìm người anh trai mất tích của Nathan.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Sunrise City",
-        "address": "Tầng 5, Sunrise City Central, 23-25-27 Nguyễn Hữu Thọ, Quận 7, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "10:15",
-            "date": "2025-03-13",
-            "seats_available": 80,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Uncharted: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:30",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 150
-          },
-          {
-            "time": "19:45",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Uncharted: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Sun Grand City Thụy Khuê",
-        "address": "Tầng 5, Sun Grand City, 69B Thụy Khuê, Tây Hồ, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "09:45",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 140
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Uncharted: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:15",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 140
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Uncharted: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Uncharted: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "18:30",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 140
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TUncharted: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Uncharted: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Uncharted: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -653,52 +1793,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "Bộ phim kể về một nhóm tội phạm do Giáo sư lãnh đạo thực hiện vụ cướp táo bạo nhất trong lịch sử Tây Ban Nha, nhắm vào Nhà máy in tiền Hoàng gia. Với các tập phim đầy gay cấn và bất ngờ, Money Heist đã trở thành hiện tượng toàn cầu.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Vincom Metropolis Liễu Giai",
-        "address": "Tầng 5, Vincom Metropolis, 29 Liễu Giai, Ba Đình, Hà Nội",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "11:00",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 100
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Top Gun: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:30",
-            "date": "2025-03-13",
-            "seats_available": 48,
-            "total_seats": 100
-          },
-          {
-            "time": "19:45",
-            "date": "2025-03-13",
-            "seats_available": 20,
-            "total_seats": 100
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Top Gun: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Saigonres Nguyễn Xí",
-        "address": "Tầng 4-5, Saigonres Plaza, 79/81 Nguyễn Xí, P.26, Q.Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:00",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 130
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Top Gun: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:30",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 130
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Top Gun: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Top Gun: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "21:00",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 130
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TTop Gun: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Top Gun: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Top Gun: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -716,58 +1967,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/theboys.webm src/app/assets/video/jurasic world.webm",
     "description": "Thor: Love and Thunder theo chân Thần Sấm trong hành trình tìm kiếm bình yên nội tâm sau sự kiện Endgame. Tuy nhiên, Thor buộc phải trở lại hành động khi Gorr - Kẻ Đồ Tể Thần Linh - xuất hiện với mục tiêu tiêu diệt tất cả các vị thần. Đặc biệt, Jane Foster - người yêu cũ của Thor - giờ đây cũng có thể sử dụng búa Mjolnir và trở thành Nữ thần Sấm.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV SC Vivo City",
-        "address": "Tầng 5, SC Vivo City, 1058 Nguyễn Văn Linh, Quận 7, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:15",
-            "date": "2025-03-13",
-            "seats_available": 85,
-            "total_seats": 160
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Jurassic World: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:00",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 160
-          },
-          {
-            "time": "17:30",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 160
-          },
-          {
-            "time": "21:00",
-            "date": "2025-03-13",
-            "seats_available": 50,
-            "total_seats": 160
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Jurassic World: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Aeon Mall Hà Đông",
-        "address": "Tầng 3, Aeon Mall Hà Đông, Dương Nội, Hà Đông, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:30",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Jurassic World: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:45",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Jurassic World: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Jurassic World: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "19:30",
-            "date": "2025-03-13",
-            "seats_available": 35,
-            "total_seats": 150
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TJurassic World: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Jurassic World: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Jurassic World: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -785,52 +2141,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/theboys.webm",
     "description": "Scott Lang, một tên trộm có kỹ năng, được nhà khoa học Hank Pym tuyển chọn làm Người Kiến mới. Với bộ giáp đặc biệt có thể thu nhỏ kích thước nhưng tăng sức mạnh, Scott phải thực hiện một phi vụ quan trọng để cứu thế giới khỏi mối đe dọa công nghệ nguy hiểm.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Hùng Vương Plaza",
-        "address": "Tầng 7, Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:45",
-            "date": "2025-03-13",
-            "seats_available": 70,
-            "total_seats": 120
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Eternals: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "13:15",
-            "date": "2025-03-13",
-            "seats_available": 55,
-            "total_seats": 120
-          },
-          {
-            "time": "19:30",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 120
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Eternals: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Vincom Royal City",
-        "address": "Tầng B2, Vincom Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:00",
-            "date": "2025-03-13",
-            "seats_available": 80,
-            "total_seats": 150
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Eternals: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "15:15",
-            "date": "2025-03-13",
-            "seats_available": 60,
-            "total_seats": 150
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Eternals: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Eternals: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "20:30",
-            "date": "2025-03-13",
-            "seats_available": 45,
-            "total_seats": 150
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TEternals: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Eternals: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Eternals: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }
@@ -848,58 +2315,163 @@
     "trailer": "john wick trailer.mp4",
     "high": "src/app/assets/video/john wick.webm",
     "description": "John Wick là câu chuyện về một sát thủ huyền thoại đã nghỉ hưu nhưng buộc phải quay lại thế giới ngầm để trả thù sau khi bị tấn công bởi con trai của một trùm mafia. Phim nổi tiếng với những cảnh hành động mãn nhãn và phong cách đặc biệt.",
-    "cgv_locations": [
+    "screenings": [
       {
-        "name": "CGV Landmark 81",
-        "address": "Tầng B1, Landmark 81, 720A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-13",
+        "theaters": [
           {
-            "time": "09:30",
-            "date": "2025-03-13",
-            "seats_available": 95,
-            "total_seats": 180
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:30",
+                "movie": "Spider Man: Episode 1",
+                "seats_available": 85,
+                "total_seats": 120
+              },
+              {
+                "time": "13:45",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 62,
+                "total_seats": 120
+              },
+              {
+                "time": "18:30",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 45,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "12:45",
-            "date": "2025-03-13",
-            "seats_available": 75,
-            "total_seats": 180
-          },
-          {
-            "time": "17:30",
-            "date": "2025-03-13",
-            "seats_available": 30,
-            "total_seats": 180
-          },
-          {
-            "time": "21:15",
-            "date": "2025-03-13",
-            "seats_available": 40,
-            "total_seats": 180
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:15",
+                "movie": "Spider Man: Episode 1",
+                "seats_available": 90,
+                "total_seats": 150
+              },
+              {
+                "time": "14:00",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 70,
+                "total_seats": 150
+              },
+              {
+                "time": "20:15",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 25,
+                "total_seats": 150
+              }
+            ]
           }
         ]
       },
       {
-        "name": "CGV Pearl Plaza",
-        "address": "Tầng 5, Pearl Plaza, 561A Điện Biên Phủ, Quận Bình Thạnh, TP.HCM",
-        "showtime": [
+        "date": "2025-03-14",
+        "theaters": [
           {
-            "time": "10:15",
-            "date": "2025-03-13",
-            "seats_available": 80,
-            "total_seats": 140
+            "name": "CGV Vincom Center Bà Triệu",
+            "address": "Tầng 6, Vincom Center, 191 Bà Triệu, Hai Bà Trưng, Hà Nội",
+            "showtimes": [
+              {
+                "time": "11:00",
+                "movie": "Spider Man: Episode 1",
+                "seats_available": 95,
+                "total_seats": 120
+              },
+              {
+                "time": "14:15",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 72,
+                "total_seats": 120
+              },
+              {
+                "time": "19:00",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 55,
+                "total_seats": 120
+              }
+            ]
           },
           {
-            "time": "14:30",
-            "date": "2025-03-13",
-            "seats_available": 65,
-            "total_seats": 140
+            "name": "CGV Aeon Mall Long Biên",
+            "address": "Tầng 4, Aeon Mall Long Biên, 27 Cổ Linh, Long Biên, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:00",
+                "movie": "Spider Man: Episode 1",
+                "seats_available": 100,
+                "total_seats": 150
+              },
+              {
+                "time": "15:30",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 80,
+                "total_seats": 150
+              },
+              {
+                "time": "21:00",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 35,
+                "total_seats": 150
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "date": "2025-03-15",
+        "theaters": [
+          {
+            "name": "CGV Vincom Royal City",
+            "address": "Tầng B2, Royal City, 72A Nguyễn Trãi, Thanh Xuân, Hà Nội",
+            "showtimes": [
+              {
+                "time": "09:30",
+                "movie": "Spider Man: Episode 1",
+                "seats_available": 110,
+                "total_seats": 130
+              },
+              {
+                "time": "12:45",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 85,
+                "total_seats": 130
+              },
+              {
+                "time": "16:30",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 60,
+                "total_seats": 130
+              }
+            ]
           },
           {
-            "time": "18:00",
-            "date": "2025-03-13",
-            "seats_available": 25,
-            "total_seats": 140
+            "name": "CGV Mipec Tower",
+            "address": "Tầng 5, Mipec Tower, 229 Tây Sơn, Đống Đa, Hà Nội",
+            "showtimes": [
+              {
+                "time": "10:45",
+                "movie": "TSpider Man: Episode 1",
+                "seats_available": 75,
+                "total_seats": 100
+              },
+              {
+                "time": "14:30",
+                "movie": "Spider Man: Episode 2",
+                "seats_available": 60,
+                "total_seats": 100
+              },
+              {
+                "time": "19:45",
+                "movie": "Spider Man: Episode 3",
+                "seats_available": 40,
+                "total_seats": 100
+              }
+            ]
           }
         ]
       }

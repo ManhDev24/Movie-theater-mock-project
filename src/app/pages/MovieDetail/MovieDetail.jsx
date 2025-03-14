@@ -13,9 +13,8 @@ const contentStyle = {
 import data from "../../../mock/homepage/homepage.json";
 import { convertDates, getTimes } from "./usecases/MovieDetail";
 const MovieDetail = () => {
-  const { name } = useParams();
-  const dates = convertDates(data);
-  const times = getTimes(data);
+  // const { name } = useParams();
+  console.log("data: ", data);
   const movieData = data[0];
   console.log("movieData: ", movieData);
   return (
@@ -59,89 +58,42 @@ const MovieDetail = () => {
           </div>
         </div>
       </div>
-      {/* <section>
-        <div className="movie-ticket-book">
-          <div className="choose-date">
-            <p className="heading">choose date:</p>
-            <div className="wrapper">
-              <Carousel style={contentStyle} dots={false} arrows>
-                {dates.map((dateString, index) => {
-                  const date = moment(dateString, "dddd, DD/MM/YYYY");
-                  return (
-                    <div key={index} className="card">
-                      <p className="text-gray-500">{date.format("MMM Do")}</p>
-                      <p className="text-2xl">
-                        {date.format("ddd").toUpperCase()}
-                      </p>
-                    </div>
-                  );
-                })}
-              </Carousel>
-              <div className="marker" />
-            </div>
-          </div>
-          <div className="choose-time">
-            <p className="heading">available times:</p>
-            <div className="wrapper">
-              <Carousel style={contentStyle} dots={false} arrows>
-                {dates.map((time, index) => (
-                  <div key={index} className="card">
-                    <p className="text-gray-500">3D</p>
-                    <p className="text-2xl">{time}</p>
-                  </div>
-                ))}
-              </Carousel>
-              <div className="marker" />
-            </div>
-          </div>
-          <button>Buy ticket</button>
+      <div className="flex justify-between flex-col items-center h-[120%] ">
+        <div className=" flex justify-center w-full ">
+          <p className="text-3xl">Lịch chiếu</p>
         </div>
-      </section> */}
-      <section className="m-10 flex justify-center">
-        <Tabs
-          defaultActiveKey="0"
-          tabPosition="left"
-          className="w-full max-w-5xl mx-auto bg-white rounded-lg shadow-md p-4 flex"
-        >
-          {movieData.cgv_locations.map((cinema, index) => (
-            <Tabs.TabPane
-              key={index}
-              tab={
-                <span className="px-4 py-2 rounded-lg transition-all duration-300 hover:bg-gray-200 block">
-                  {cinema.name}
-                </span>
-              }
-            >
-              {/* Căn giữa thông tin rạp */}
-              <div className="text-center">
-                <Title level={4} className="m-0 text-blue-600">
-                  {cinema.name}
-                </Title>
-                <Text type="secondary" className="block text-gray-500">
-                  {cinema.address}
-                </Text>
-              </div>
-
-              <div className="mt-6 mb-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
-                {cinema.showtime.map((show, idx) => (
-                  <Card
-                    key={idx}
-                    className="border p-4 rounded-lg hover:shadow-lg transition-all duration-300 "
-                  >
-                    <Title level={5} className="m-0 text-gray-800">
-                      {show.time}
-                    </Title>
-                    <Text className="text-gray-600">
-                      Ngày: {show.date} - Ghế trống: {show.seats_available}/
-                      {show.total_seats}
-                    </Text>
-                  </Card>
-                ))}
-              </div>
-            </Tabs.TabPane>
-          ))}
-        </Tabs>
-      </section>
+        <div className="w-full flex justify-center">
+          <Tabs defaultActiveKey="0">
+            {movieData?.screenings?.map((cinema, index) => (
+              <Tabs.TabPane
+                key={index}
+                tab={
+                  <div className="w-25  h-25 bg-amber-300 flex justify-center items-center">
+                    <p>{cinema.date}</p>
+                  </div>
+                }
+              >
+                <p>Danh sách Rạp</p>
+                <div className="theater">
+                  {cinema?.theaters.map((show, id) => (
+                    <div className="mt-3 h-30 w-full">
+                      <p>{show.name}</p>
+                      <p>{show.address}</p>
+                      <div className="flex flex-wrap gap-2 max-w-[400px] mb-4">
+                        {show.showtimes.map((movie) => (
+                          <div className="border-2 h-10 w-16 flex justify-center items-center">
+                            {movie.time}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </Tabs.TabPane>
+            ))}
+          </Tabs>
+        </div>
+      </div>
     </div>
   );
 };
