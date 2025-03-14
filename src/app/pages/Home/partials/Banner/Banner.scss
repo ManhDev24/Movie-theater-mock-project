@@ -3,7 +3,9 @@
   // background: linear-gradient(to right, black, #191919 60%);
   background-color: black;
 }
+
 .banner {
+
   position: relative;
 }
 .banner-img {
@@ -78,6 +80,7 @@
 }
 .more-cards {
   padding-left: 3%;
+  background-color: black;
 }
 .more-cards .card-list img {
   object-fit: fill;
@@ -100,4 +103,10 @@
   border-radius: 4px;
   font-size: 12px;
   font-weight: bolder;  
+}
+.left {
+
+}
+.rigth {
+  
 }
