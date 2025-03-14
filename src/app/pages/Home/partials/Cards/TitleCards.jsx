@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./TitleCards.scss";
 import { sMovie } from "../../../../store/Store";
 import coming from "../../../../../mock/comming.json"; 
@@ -8,14 +8,12 @@ const TitleCards = ({ title }) => {
   const [movieData, setMovieData] = useState([]);
 
   const cardsRef = useRef();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [showLeftArrow, setShowLeftArrow] = useState(false);
   const [showRightArrow, setShowRightArrow] = useState(true);
 
   useEffect(() => {
-    // Handle different data sources based on title prop
     if (title === "PHIM SẮP CHIẾU" && coming?.data?.result) {
-      // Use the coming.json data for upcoming movies
       const currentDate = new Date();
       const upcomingMovies = coming.data.result
         .filter(movie => {
@@ -135,9 +133,9 @@ const TitleCards = ({ title }) => {
             <div
               className="card"
               key={`${movie.id}-${index}`}
-              onClick={() =>
-                navigate(`/movie/${movie.name}`, { state: { movie } })
-              }
+              // onClick={() =>
+              //   navigate(`/movie/${movie.name}`, { state: { movie } })
+              // }
             >
               <img src={movie.imagePortrait} alt={movie.name} />
             </div>
