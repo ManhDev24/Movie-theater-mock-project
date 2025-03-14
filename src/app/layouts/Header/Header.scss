@@ -13,19 +13,23 @@
     transparent
   );
 }
+
 .navbar-left {
   display: flex;
   align-items: center;
   gap: 50px;
 }
+
 .navbar-left img {
   width: 90px;
 }
+
 .navbar-left ul {
   display: flex;
   list-style: none;
   gap: 20px;
 }
+
 .navbar-left ul li a {
   text-decoration: none;
   color: #e5e5e5;
@@ -60,14 +64,17 @@
   gap: 20px;
   align-items: center;
 }
+
 .navbar-right .icons {
   width: 20px;
   cursor: pointer;
 }
+
 .navbar-right .profile {
   border-radius: 4px;
   width: 35px;
 }
+
 .navbar-profile {
   display: flex;
   gap: 10px;
@@ -128,5 +135,97 @@
   }
   100% {
     background-position: 100% 50%;
+  }
+}
+
+/* Mobile menu toggle button */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.mobile-menu-toggle span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #e5e5e5;
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .navbar-left {
+    gap: 30px;
+  }
+  
+  .navbar-left ul {
+    gap: 15px;
+  }
+  
+  .ticket-btn {
+    padding: 8px 15px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 15px 4%;
+  }
+  
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  .navbar-left ul {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    padding: 20px 0;
+    text-align: center;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-left ul.active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .navbar-left ul li {
+    margin: 10px 0;
+  }
+  
+  .navbar-right .ticket-btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-left img {
+    width: 70px;
+  }
+  
+  .navbar-right {
+    gap: 15px;
+  }
+  
+  .navbar-right .icons {
+    width: 18px;
+  }
+  
+  .navbar-right .profile {
+    width: 30px;
   }
 }

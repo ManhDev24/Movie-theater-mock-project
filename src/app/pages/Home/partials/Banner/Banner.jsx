@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import "./Banner.scss";
 import Header from "../../../../layouts/Header";
 import coming from "../../../../../mock//comming.json";
@@ -27,6 +27,7 @@ const Banner = () => {
         <img
           src={coming.data.result[0].imageLandscape}
           className="banner-img"
+          alt={coming.data.result[0].name}
         />
         <div className="banner-caption">
           <h1>{coming.data.result[0].name}</h1>
