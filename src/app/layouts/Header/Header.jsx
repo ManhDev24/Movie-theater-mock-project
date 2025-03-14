@@ -7,7 +7,7 @@ import search_icon from "../../assets/img/search_icon.svg";
 import bell_icon from "../../assets/img/bell_icon.svg";
 import profile_img from "../../assets/img/profile_img.png";
 const Header = () => {
-  return (
+  return (  
     <div className="navbar">
       <div className="navbar-left">
         <Link to="/">
