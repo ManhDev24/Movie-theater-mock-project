@@ -3,6 +3,7 @@ import data from "../../../mock/homepage/homepage.json";
 import Banner from "./partials/Banner";
 import TitleCards from "./partials/Cards";
 import "./Home.scss";
+import { MergeDb } from "../../modules/MergeDb";
 const Home = () => {
   console.log("data: ", data);
 
