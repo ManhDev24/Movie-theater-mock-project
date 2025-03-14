@@ -1,0 +1,110 @@
+{
+  "response": {
+    "status": 200,
+    "code": 0,
+    "message": "OK",
+    "url": ""
+  },
+  "data": {
+    "result": [
+      {
+        "id": "748f782d-3583-4454-a6ae-08a7d4bf0951",
+        "name": "iCombo 1 Big Extra STD",
+        "description": "1 Ly nước ngọt size L + 01 Hộp bắp + 1 Snack",
+        "itemId": 5430,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/3/29/menuboard-coonline-2024-combo1-min_1711699834430.jpg",
+        "price": 109000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOICB1BESTDVOU"
+      },
+      {
+        "id": "38afb335-256c-429a-be36-f48734c07faa",
+        "name": "iCombo 2 Big Extra STD",
+        "description": " 02 Ly nước ngọt size L + 01 Hộp bắp + 1 Snack",
+        "itemId": 5436,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/3/29/menuboard-coonline-2024-combo2-min_1711699866349.jpg",
+        "price": 129000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOICB2BESTDVOU"
+      },
+      {
+        "id": "f5b84614-827c-4095-8274-4c763f33faa1",
+        "name": "iCombo 1 Big STD",
+        "description": " 01 Ly nước ngọt size L + 01 Hộp bắp",
+        "itemId": 5433,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/3/29/menuboard-coonline-2024-combo1-copy-min_1711699814762.jpg",
+        "price": 89000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOICB1BSTDVOU"
+      },
+      {
+        "id": "da19c0d3-09bc-4a6c-a081-69c6ecf97fce",
+        "name": "iCombo 2 Big STD",
+        "description": " 02 Ly nước ngọt size L + 01 Hộp bắp",
+        "itemId": 5439,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/3/29/menuboard-coonline-2024-combo2-copy-min_1711699849615.jpg",
+        "price": 109000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOICB2BSTDVOU"
+      },
+      {
+        "id": "a8ed4b31-472c-415f-9124-c1f10881256f",
+        "name": "iFood Combo 1",
+        "description": "1 Bánh Burger Gà/Bò + 1 Nước 27oz/Lipton 27oz/Suối/Pepsi Lime Lon\n- Burger vẫn được phục vụ ở Lagom và Laurus\n- Món ăn được chế biến trong thời gian 5-10'",
+        "itemId": 6065,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/2/7/food-1_1707276533353.jpg",
+        "price": 179000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOIFOODCB1"
+      },
+      {
+        "id": "391bba35-2b4b-4aee-af3e-8f8110028642",
+        "name": "iTea Combo 1",
+        "description": "1 Trà Nhài Cam Sả/Trà Gạo Rang Sen Sữa + 1 Bắp",
+        "itemId": 6067,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/2/7/tea-1_1707276610254.jpg",
+        "price": 99000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOITEACB1"
+      },
+      {
+        "id": "b86d7228-1a80-416e-a3a1-48f8cb69ebaa",
+        "name": "iFood Combo 2",
+        "description": "2 Bánh Burger Gà/Bò + 2 Nước 27oz/Lipton 27oz/Suối/Pepsi Lime Lon\n- Burger vẫn được phục vụ ở Lagom và Laurus\n- Món ăn được chế biến trong thời gian 5-10'",
+        "itemId": 6066,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/2/7/food-2_1707276567653.jpg",
+        "price": 329000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOIFOODCB2"
+      },
+      {
+        "id": "c71c01e7-6849-4d86-85b0-daf633dced22",
+        "name": "iTea Combo 2",
+        "description": "1 Trà Nhài Cam Sả/Trà Gạo Rang Sen Sữa + 1 Nước 27oz/Lipton 27oz/Suối/Pepsi Lime Lon + 1 Bắp",
+        "itemId": 6068,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/2/7/tea-2_1707276640266.jpg",
+        "price": 119000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOITEACB2"
+      },
+      {
+        "id": "a5b84c18-922f-4984-8448-2e553fa98c2a",
+        "name": "iGalaxy Special Combo",
+        "description": "2 Nước 27oz/Lipton 27oz/Suối/Pepsi Lon + 1 Bắp + 1 Phần Chicken Popcorn/Galaxy Churros\n- Burger vẫn được phục vụ ở Lagom và Laurus\n- Món ăn được chế biến trong thời gian 5-10'",
+        "itemId": 5827,
+        "imageUrl": "https://cdn.galaxycine.vn/media/2024/2/7/galaxy-special_1707276854683.jpg",
+        "price": 159000,
+        "maxQuantity": 100,
+        "headOfficeItemCode": "HOIGLXSPECIC"
+      }
+    ],
+    "popupInfo": {
+      "name": "Galaxy Play Premium",
+      "platform": "",
+      "action": "deeplink",
+      "actionLink": "galaxycinema://screen?name=home-see-more&tab=showing",
+      "imageLandscape": "",
+      "imagePortrait": "https://cdn.galaxycine.vn/media/2025/1/23/image-2024-12-04-14-35-08-708_1737629277117.png"
+    }
+  }
+}
