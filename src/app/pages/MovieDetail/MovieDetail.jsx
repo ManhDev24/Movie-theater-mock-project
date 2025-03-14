@@ -64,33 +64,47 @@ const MovieDetail = () => {
         </div>
         <div className="w-full flex justify-center">
           <Tabs defaultActiveKey="0">
-            {movieData?.screenings?.map((cinema, index) => (
-              <Tabs.TabPane
-                key={index}
-                tab={
-                  <div className="w-25  h-25 bg-amber-300 flex justify-center items-center">
-                    <p>{cinema.date}</p>
-                  </div>
-                }
-              >
-                <p>Danh sách Rạp</p>
-                <div className="theater">
-                  {cinema?.theaters.map((show, id) => (
-                    <div className="mt-3 h-30 w-full">
-                      <p>{show.name}</p>
-                      <p>{show.address}</p>
-                      <div className="flex flex-wrap gap-2 max-w-[400px] mb-4">
-                        {show.showtimes.map((movie) => (
-                          <div className="border-2 h-10 w-16 flex justify-center items-center">
-                            {movie.time}
-                          </div>
-                        ))}
-                      </div>
+            {movieData?.screenings?.map((cinema, index) => {
+              const dayOfWeek = moment(cinema.date).format("dddd");
+              const date = moment(cinema.date).format("DD/MM/YYYY");
+              return (
+                <Tabs.TabPane
+                  key={index}
+                  tab={
+                    <div className="w-40 h-30 bg-amber-300 flex flex-col justify-center items-center rounded-2xl shadow-md p-4 space-y-2">
+                      <p className="text-xl font-bold text-gray-700">
+                        {dayOfWeek}
+                      </p>
+                      <p className="text-lg text-gray-600">{date}</p>
                     </div>
-                  ))}
-                </div>
-              </Tabs.TabPane>
-            ))}
+                  }
+                >
+                  <p className="text-3xl font-bold">Danh sách Rạp</p>
+                  <div className="theater">
+                    {cinema?.theaters.map((show, id) => (
+                      <div className="mt-3 h-full w-full bg-purple-500 rounded-md p-5">
+                        <div>
+                          <p className="mb-5 text-2xl text-yellow-300">
+                            {show.name}
+                          </p>
+                          <p className="mb-5 text-white text-lg">
+                            {" "}
+                            {show.address}
+                          </p>
+                        </div>
+                        <div className="flex flex-wrap gap-2 max-w-[400px] mb-4">
+                          {show.showtimes.map((movie) => (
+                            <div className="border-1 h-10 w-16 flex justify-center items-center border-white text-white rounded-md cursor-pointer hover:text-yellow-300">
+                              {movie.time}
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Tabs.TabPane>
+              );
+            })}
           </Tabs>
         </div>
       </div>
