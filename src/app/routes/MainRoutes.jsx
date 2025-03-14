@@ -20,14 +20,6 @@ const MainRoutes = () => {
   }, []);
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/seats" element={<SeatContainer />} />
-        <Route path="*" element={<PageNotFound />} />
-        <Route path="/detail/:name" element={<MovieDetail />} />
-      </Routes>
-      <Footer />
       {loadingStartup ? (
         <LoadingStartup />
       ) : (
