@@ -2,7 +2,6 @@ import cinemas from "../../mock/cinemas.json";
 import movies from "../../mock/movies.json";
 import sessions from "../../mock/sessions.json";
 import locations from "../../mock/locations.json";
-
 // export const MergeDb = () => {
 //   const cinemaMap = cinemas?.data.result.reduce((acc, cinema) => {
 //     if (!acc[cinema.cityId]) {
@@ -144,10 +143,11 @@ export const MergeDb = () => {
       (location) => location.id === cinema.cityId
     );
     const cityName = cityInfo ? cityInfo.name : "Unknown City";
-
+    const citySlug = cityInfo?.slug;
     if (!dataStructure[cinema.cityId]) {
       dataStructure[cinema.cityId] = {
         cityName,
+        citySlug,
         cinemas: {},
       };
     }
