@@ -5,6 +5,7 @@ import PageNotFound from "../layouts/PageNotFound";
 import Footer from "../layouts/Footer/Footer";
 import Home from "../pages/Home";
 import MovieDetail from "../pages/MovieDetail/MovieDetail";
+import SeatContainer from "../pages/Seats/SeatContainer";
 import LoadingStartup from "../components/LoadingStartup";
 
 const MainRoutes = () => {
@@ -19,6 +20,14 @@ const MainRoutes = () => {
   }, []);
   return (
     <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/seats" element={<SeatContainer />} />
+        <Route path="*" element={<PageNotFound />} />
+        <Route path="/detail/:name" element={<MovieDetail />} />
+      </Routes>
+      <Footer />
       {loadingStartup ? (
         <LoadingStartup />
       ) : (

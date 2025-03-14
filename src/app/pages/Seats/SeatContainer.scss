@@ -1,0 +1,208 @@
+$seat-size: 40px;
+$seat-color: #ccc;
+$booked-color: #666;
+$selected-color: #6c6;
+$dark-bg: oklch(0.21 0.034 264.665);
+$gold-color: gold;
+
+#seat-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #eee;
+    background-color: #201f1f;
+    border-radius: 20px;
+}
+
+.seat {
+    position: absolute;
+    width: $seat-size;
+    height: $seat-size;
+    cursor: pointer;
+    background-color: $seat-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    &.booked {
+        background-color: $booked-color;
+        cursor: not-allowed;
+    }
+    
+    &.selected {
+        background-color: $selected-color;
+    }
+    
+    &.vip {
+        background-color: $gold-color;
+        
+        &.selected {
+            background-color: $selected-color;
+        }
+    }
+    
+    &.double {
+        background-color: red;
+        
+        &.selected {
+            background-color: $selected-color;
+        }
+    }
+}
+
+.seat-layout-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62.2%;
+    padding-top: 100px;
+    padding-left: 300px;
+}
+
+.info-container {
+    position: relative;
+    width: 82%;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $dark-bg;
+}
+
+.info {
+    width: 90%;
+    
+    p {
+        color: white;
+    }
+}
+
+.button-buy {
+    padding-right: 30px;
+}
+
+.info-title {
+    p {
+        color: white;
+        font-size: 50px;
+    }
+}
+
+.Card-layout {
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.Card-title-choose {
+    h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        color: $gold-color;
+    }
+}
+
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+    background-color: $dark-bg;
+    
+    .ant-card-head-title {
+        color: $gold-color;
+    }
+}
+
+.Card {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.cinema-container{
+    display: flex;
+
+}
+#booking-details {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #eee;
+    background-color: #201f1f;
+    border-radius: 20px;
+}
+
+#booking-details h2{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#booking-details p{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+.booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    padding-top: 100px;
+
+}
+.booking-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seat-legend {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    top: 220px;
+  }
+.legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: var(--text-secondary);
+  }
+  
+  .legend-color {
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .legend-regular {
+    background-color: grey;
+  }
+  
+  .legend-premium {
+    background-color: gold;
+  }
+  
+  .legend-selected {
+    background-color: #4caf50;
+  }
+  
+  .legend-booked {
+    background-color: #666;
+    opacity: 0.5;
+  }
