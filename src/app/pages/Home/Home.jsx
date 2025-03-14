@@ -2,6 +2,7 @@ import React from "react";
 import data from "../../../mock/homepage/homepage.json";
 import Banner from "./partials/Banner";
 import TitleCards from "./partials/Cards";
+import "./Home.scss";
 const Home = () => {
   console.log("data: ", data);
 
