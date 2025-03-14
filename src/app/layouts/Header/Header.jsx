@@ -6,7 +6,6 @@ import logo from "../../assets/img/logo-theater.png";
 import search_icon from "../../assets/img/search_icon.svg";
 import bell_icon from "../../assets/img/bell_icon.svg";
 import profile_img from "../../assets/img/profile_img.png";
-import caret_icon from "../../assets/img/caret_icon.svg";
 const Header = () => {
   return (
     <div className="navbar">
@@ -20,7 +19,7 @@ const Header = () => {
               <Link to="/">PHIM</Link>
             </li>
             <li>
-              <Link to="*">RẠP CHIẾU PHIM</Link>
+              <Link to="/rap-chieu-phim">RẠP CHIẾU PHIM</Link>
             </li>
             <li>
               <Link to="/khuyen-mai">KHUYẾN MÃI</Link>
@@ -32,13 +31,15 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-right">
+        <Link to="/dat-ve" className="ticket-btn">ĐẶT VÉ NGAY
+        </Link>
+
         <img src={search_icon} alt="" className="icons" />
-        <p>USER</p>
         <img src={bell_icon} alt="" className="icons" />
         <div className="navbar-profile">
           <img src={profile_img} alt="" className="profile" />
-          <img src={caret_icon} alt="" />
-          <div className="dropdown">Sign Out Of FTheater</div>
+          {/* <img src={caret_icon} alt="" />
+            <div className="dropdown">Sign Out Of FTheater</div> */}
         </div>
       </div>
     </div>

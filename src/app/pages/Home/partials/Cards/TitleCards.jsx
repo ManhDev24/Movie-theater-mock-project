@@ -52,7 +52,7 @@ const TitleCards = ({ title }) => {
             <div
               className="card"
               key={index}
-              onClick={() => navigate(`/movie/${card.id}`)}
+              onClick={() => navigate(`/movie/${card.name}`, { state: { movie: card } })}
             >
               <img src={card.sposter} alt={card.name} />
               <p>{card.name}</p>
