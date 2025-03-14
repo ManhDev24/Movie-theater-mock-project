@@ -17,6 +17,7 @@ const BookingPage = () => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredShowtimes, setFilteredShowtimes] = useState([]);
+  console.log("filteredShowtimes: ", filteredShowtimes);
   const [selectedShowtime, setSelectedShowtime] = useState(null);
 
   const mappedCities = Object.values(data).map((city) => ({
@@ -191,7 +192,7 @@ const BookingPage = () => {
               }`}
               onClick={() => handleShowtimeClick(session)}
             >
-              {session.showDate} - {session.showTime.split(" ")[1]}
+              {session.showTime.split(" ")[0]}
             </Tag>
           ))}
         </div>
