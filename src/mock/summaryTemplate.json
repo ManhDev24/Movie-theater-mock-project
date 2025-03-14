@@ -1,0 +1,60 @@
+{
+  "data": {
+    "id": "11df715f6c1a4d13b7693b8b144703b7",
+    "status": "order",
+    "movie": {
+      "name": "Mickey 17",
+      "imageLandscape": "https://cdn.galaxycine.vn/media/2025/2/11/mickey-17-750_1739261262236.jpg",
+      "imagePortrait": "https://cdn.galaxycine.vn/media/2025/2/11/mickey-17-500_1739261262434.jpg",
+      "caption": "sub",
+      "version": "imax2d",
+      "movieFormat": "IMAX 2D Phụ Đề",
+      "age": "18",
+      "duration": 137
+    },
+    "cinema": {
+      "name": "Galaxy Sala",
+      "id": "6bcd3542-1bcf-4d2c-8ab4-63cac086f80a",
+      "code": "1024"
+    },
+    "session": {
+      "id": "1024-20272",
+      "screenName": "IMAX",
+      "sessionDate": "2025-03-14 17:00:00"
+    },
+    "concessions": [
+      {
+        "description": "iCombo 2 Big STD",
+        "itemId": 5439,
+        "quantity": 1,
+        "price": 109000
+      },
+      {
+        "description": "Gói Galaxy Play Premium 1 tháng",
+        "itemId": 0,
+        "quantity": 1,
+        "price": 0
+      }
+    ],
+    "tickets": [
+      {
+        "description": "Nguoi Lon IMAX with LASER",
+        "price": 179000,
+        "ticketTypeCode": "0347",
+        "seats": ["G12"]
+      },
+      {
+        "description": "Nguoi Lon IMAX with LASER",
+        "price": 179000,
+        "ticketTypeCode": "0347",
+        "seats": ["G11"]
+      }
+    ],
+    "barcodes": [],
+    "total": 467000,
+    "discountAmount": 0,
+    "loyaltyPoint": 0,
+    "loyaltyDiscount": 0,
+    "totalPoints": 0
+  }
+}
