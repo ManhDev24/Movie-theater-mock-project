@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Select, Typography, Card, Tag, Modal, Input } from "antd";
 import { sMovie } from "../../store/Store";
 import "./BookingPage.scss";
@@ -7,15 +7,17 @@ const { Title } = Typography;
 const { Search } = Input;
 
 const BookingPage = () => {
-  const movie = sMovie.use(); // Lấy dữ liệu từ store
-  const data = movie || {}; // Đảm bảo dữ liệu không bị null
+  const movie = sMovie.use();
+  const data = movie || {};
 
   const [selectedCity, setSelectedCity] = useState(null);
   const [selectedCinema, setSelectedCinema] = useState(null);
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [showtimes, setShowtimes] = useState([]);
+  const [selectedDate, setSelectedDate] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
+  const [filteredShowtimes, setFilteredShowtimes] = useState([]);
+  const [selectedShowtime, setSelectedShowtime] = useState(null);
 
   const mappedCities = Object.values(data).map((city) => ({
     value: city.citySlug,
@@ -36,50 +38,38 @@ const BookingPage = () => {
     setSelectedMovie(null);
   };
 
-  const handleMovieClick = (movieId, sessions) => {
+  const handleMovieClick = (movieId) => {
     setSelectedMovie(movieId);
-    setShowtimes(sessions);
     setIsModalOpen(true);
   };
 
-  const handleShowtimeClick = (time) => {
-    const cityData = findCityBySlug(selectedCity);
-
-    if (!cityData) {
-      console.error("City data not found");
-      return;
-    }
-
-    const cinemaData = cityData.cinemas?.[selectedCinema] || {};
-    const movieData = cinemaData.movies?.[selectedMovie] || {};
-
-    const cinemaName = cinemaData.name || "Unknown Cinema";
-    const movieName = movieData.name || "Unknown Movie";
-
-    const showtimeInfo = {
-      citySlug: cityData.citySlug || "Unknown City ID",
-      city: cityData.cityName || "Unknown City",
-      cinemaId: selectedCinema || "Unknown Cinema ID",
-      cinema: cinemaName,
-      movieId: selectedMovie || "Unknown Movie ID",
-      movie: movieName,
-      showtime: time,
-    };
-
-    console.log(showtimeInfo);
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
   };
 
   const handleModalClose = () => {
     setIsModalOpen(false);
-    setShowtimes([]);
+    setSelectedDate(null);
+    setFilteredShowtimes([]);
+    setSelectedShowtime(null);
   };
 
   const handleSearch = (value) => {
     setSearchTerm(value.toLowerCase());
   };
 
+  const handleShowtimeClick = (session) => {
+    setSelectedShowtime(session);
+    console.log({
+      location: cityResult?.cityName,
+      cinema: cinemaData[selectedCinema]?.name,
+      movie: movieList[selectedMovie]?.name,
+      movieId: selectedMovie,
+      showtime: session,
+    });
+  };
+
   const cityResult = findCityBySlug(selectedCity);
-  console.log("cityResult: ", cityResult);
   const cinemaData = cityResult?.cinemas || {};
 
   const filteredCinemas = Object.entries(cinemaData).filter(([_, cinema]) =>
@@ -89,6 +79,23 @@ const BookingPage = () => {
   const movieList = selectedCinema
     ? cinemaData[selectedCinema]?.movies || {}
     : {};
+
+  const sessions = movieList[selectedMovie]?.sessions || [];
+
+  const uniqueDates = [
+    ...new Set(sessions.map((session) => session.showDate.split(" ")[0])),
+  ];
+
+  useEffect(() => {
+    if (selectedDate && sessions.length > 0) {
+      const filtered = sessions.filter(
+        (session) => session.showDate.split(" ")[0] === selectedDate
+      );
+      setFilteredShowtimes(filtered);
+    } else {
+      setFilteredShowtimes([]);
+    }
+  }, [selectedMovie, selectedDate, sessions]);
 
   return (
     <div className="flex h-[1200px] items-center flex-col pt-20 z-2">
@@ -135,7 +142,7 @@ const BookingPage = () => {
         </div>
       )}
 
-      {Object.keys(movieList).length > 0 ? (
+      {Object.keys(movieList).length > 0 && (
         <div className="mt-5">
           <Title level={4}>Danh sách phim</Title>
           <div className="grid grid-cols-3 gap-4">
@@ -145,7 +152,7 @@ const BookingPage = () => {
                 className={`p-2 cursor-pointer ${
                   selectedMovie === movieId ? "border-2 border-blue-500" : ""
                 }`}
-                onClick={() => handleMovieClick(movieId, movie.sessions)}
+                onClick={() => handleMovieClick(movieId)}
               >
                 <img
                   src={movie.imagePortrait}
@@ -157,27 +164,34 @@ const BookingPage = () => {
             ))}
           </div>
         </div>
-      ) : (
-        selectedCinema && (
-          <p className="mt-5 text-gray-500">No movies available.</p>
-        )
       )}
 
       <Modal
-        title="Khung giờ chiếu"
+        title="Chọn ngày chiếu"
         open={isModalOpen}
         onCancel={handleModalClose}
         footer={null}
       >
+        <Select
+          style={{ width: 200, marginBottom: 16 }}
+          placeholder="Chọn ngày chiếu"
+          onChange={handleDateChange}
+          options={uniqueDates.map((date) => ({
+            value: date,
+            label: date,
+          }))}
+        />
         <div className="grid grid-cols-4 gap-4">
-          {showtimes.map((time, index) => (
+          {filteredShowtimes.map((session, index) => (
             <Tag
               key={index}
-              color="blue"
-              className="p-2 text-sm text-center rounded-lg shadow-md bg-gradient-to-r from-blue-400 to-blue-600 text-white cursor-pointer"
-              onClick={() => handleShowtimeClick(time.showTime)}
+              color={selectedShowtime === session ? "blue" : "default"}
+              className={`p-2 text-sm cursor-pointer ${
+                selectedShowtime === session ? "bg-blue-500 text-white" : ""
+              }`}
+              onClick={() => handleShowtimeClick(session)}
             >
-              {time.showTime}
+              {session.showDate} - {session.showTime.split(" ")[1]}
             </Tag>
           ))}
         </div>
