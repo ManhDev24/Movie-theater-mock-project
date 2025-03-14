@@ -8,7 +8,7 @@ import TitleCards from "../Cards";
 
 const Banner = () => {
   const moreCardsRef = useRef(null);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   console.log(coming.data.result);
   const scrollToMoreCards = () => {
     if (moreCardsRef.current) {
@@ -16,9 +16,9 @@ const Banner = () => {
     }
   };
 
-  const goToMovieDetail = () => {
-    navigate(`/movie/${coming[1].id}`);
-  };
+  // const goToMovieDetail = () => {
+  //   navigate(`/movie/${coming[1].id}`);
+  // };
 
   return (
     <div className="home">
@@ -31,7 +31,7 @@ const Banner = () => {
         <div className="banner-caption">
           <h1>{coming.data.result[0].name}</h1>
           <div className="banner-btns">
-            <button className="btn" onClick={goToMovieDetail}>
+            <button className="btn">
               ĐẶT VÉ NGAY
             </button>
             <button className="btn dark-btn" onClick={scrollToMoreCards}>

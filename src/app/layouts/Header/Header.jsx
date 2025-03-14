@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import "./Header.scss";
 import logo from "../../assets/img/logo-theater.png";
 import search_icon from "../../assets/img/search_icon.svg";
@@ -38,8 +37,6 @@ const Header = () => {
         <img src={bell_icon} alt="" className="icons" />
         <div className="navbar-profile">
           <img src={profile_img} alt="" className="profile" />
-          {/* <img src={caret_icon} alt="" />
-            <div className="dropdown">Sign Out Of FTheater</div> */}
         </div>
       </div>
     </div>
