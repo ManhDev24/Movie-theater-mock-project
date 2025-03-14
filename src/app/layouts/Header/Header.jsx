@@ -33,7 +33,7 @@ const Header = () => {
       </div>
       <div className="navbar-right">
         <img src={search_icon} alt="" className="icons" />
-        <p>USER</p>
+        {/* <p>MUA VÉ</p> */}
         <img src={bell_icon} alt="" className="icons" />
         <div className="navbar-profile">
           <img src={profile_img} alt="" className="profile" />
