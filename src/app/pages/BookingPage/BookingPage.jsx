@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect, useMemo } from "react";
 import { Select, Typography, Input } from "antd";
 import { sMovie } from "../../store/Store";
@@ -11,9 +12,11 @@ const BookingPage = () => {
   const [selectedCity, setSelectedCity] = useState(null);
   const [selectedCinema, setSelectedCinema] = useState(null);
   const [selectedMovie, setSelectedMovie] = useState(null);
+
   const [selectedDate, setSelectedDate] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredShowtimes, setFilteredShowtimes] = useState([]);
+
   const [selectedShowtime, setSelectedShowtime] = useState(null);
 
   const mappedCities = useMemo(() => {
@@ -68,6 +71,7 @@ const BookingPage = () => {
 
   const handleMovieClick = (movieId) => {
     setSelectedMovie(movieId);
+
     setSelectedDate(null);
     setSelectedShowtime(null);
     setFilteredShowtimes([]);
@@ -255,6 +259,7 @@ const BookingPage = () => {
               </div>
             )}
 
+
             {selectedDate && (
               <div className="bg-white rounded-lg shadow-md p-6 mb-6">
                 <h2 className="text-xl font-bold text-red-700 mb-4">
@@ -285,11 +290,13 @@ const BookingPage = () => {
             )}
           </div>
 
+
           <div className="w-full lg:w-1/3">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-6">
               <h2 className="text-xl font-bold text-red-700 mb-4">
                 THÔNG TIN VÉ
               </h2>
+
 
               {!selectedCity ? (
                 <div className="text-gray-500 text-center py-8">
@@ -310,6 +317,7 @@ const BookingPage = () => {
                       </p>
                     </div>
                   )}
+
 
                   {selectedMovie && movieList[selectedMovie] && (
                     <div className="border-b pb-3 mb-3">
@@ -374,6 +382,7 @@ const BookingPage = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };
