@@ -5,7 +5,6 @@ import { sMovie } from "../../store/Store";
 const { Search } = Input;
 
 const BookingPage = () => {
-  // Thêm hàm chuyển đổi định dạng ngày
   const convertDateFormat = (dateStr) => {
     if (!dateStr) return "";
 
