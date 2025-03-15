@@ -16,7 +16,6 @@ const BookingPage = () => {
   const [filteredShowtimes, setFilteredShowtimes] = useState([]);
   const [selectedShowtime, setSelectedShowtime] = useState(null);
 
-  // Memoize derived values to prevent recalculation on every render
   const mappedCities = useMemo(() => {
     return Object.values(data).map((city) => ({
       value: city.citySlug,
