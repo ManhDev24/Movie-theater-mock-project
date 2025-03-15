@@ -3,3 +3,4 @@ import { MergeDb } from "../modules/MergeDb";
 
 const MovieData = MergeDb();
 export const sMovie = signify(MovieData);
+export const sMovieInfoTicket = signify("");
