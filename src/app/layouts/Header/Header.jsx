@@ -8,7 +8,7 @@ import profile_img from "../../assets/img/profile_img.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  
+
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
@@ -17,8 +17,8 @@ const Header = () => {
     setMenuOpen(false);
   };
 
-  return (  
-    <div className="navbar">
+  return (
+    <div className="navbar ">
       <div className="navbar-left">
         <Link to="/" onClick={closeMenu}>
           <img src={logo} alt="" />
@@ -30,21 +30,31 @@ const Header = () => {
         </div>
         <ul className={menuOpen ? "active" : ""}>
           <li>
-            <Link to="/" onClick={closeMenu}>PHIM</Link>
+            <Link to="/" onClick={closeMenu}>
+              PHIM
+            </Link>
           </li>
           <li>
-            <Link to="/rap-chieu-phim" onClick={closeMenu}>RẠP CHIẾU PHIM</Link>
+            <Link to="/rap-chieu-phim" onClick={closeMenu}>
+              RẠP CHIẾU PHIM
+            </Link>
           </li>
           <li>
-            <Link to="/khuyen-mai" onClick={closeMenu}>KHUYẾN MÃI</Link>
+            <Link to="/khuyen-mai" onClick={closeMenu}>
+              KHUYẾN MÃI
+            </Link>
           </li>
           <li>
-            <Link to="/lien-he" onClick={closeMenu}>LIÊN HỆ</Link>
+            <Link to="/lien-he" onClick={closeMenu}>
+              LIÊN HỆ
+            </Link>
           </li>
         </ul>
       </div>
       <div className="navbar-right">
-        <Link to="/dat-ve" className="ticket-btn" onClick={closeMenu}>ĐẶT VÉ NGAY</Link>
+        <Link to="/dat-ve" className="ticket-btn" onClick={closeMenu}>
+          ĐẶT VÉ NGAY
+        </Link>
         <img src={search_icon} alt="" className="icons" />
         <img src={bell_icon} alt="" className="icons" />
         <div className="navbar-profile">
