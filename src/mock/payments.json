@@ -1,0 +1,61 @@
+{
+  "response": {
+    "status": 200,
+    "code": 0,
+    "message": "OK",
+    "url": ""
+  },
+  "data": {
+    "total": 6,
+    "result": [
+      {
+        "isDefault": true,
+        "id": "19e99efb-a014-4d9a-81e5-83f6d137437a",
+        "paymentId": "hsbc",
+        "paymentName": "HSBC/Payoo - ATM/VISA/MASTER/JCB/QRCODE",
+        "image": "https://cdn.galaxycine.vn/media/2020/10/20/hsbc-icon_1603203578522.png",
+        "order": 0
+      },
+      {
+        "isDefault": false,
+        "id": "19e99efb-a014-4d9a-81e5-83f6d137466i",
+        "paymentId": "shopeepay",
+        "paymentName": "Ví ShopeePay - Giảm 10K cho tất cả giao dịch",
+        "image": "https://cdn.galaxycine.vn/media/2022/4/29/shopee-pay_1651229746140.png",
+        "order": 1
+      },
+      {
+        "isDefault": false,
+        "id": "0890fe3f-cf25-4e27-bd45-aebf0de38113",
+        "paymentId": "momo",
+        "paymentName": "Ví Điện Tử MoMo",
+        "image": "https://cdn.galaxycine.vn/media/2020/10/20/momo-icon_1603203874499.png",
+        "order": 2
+      },
+      {
+        "isDefault": false,
+        "id": "0890fe3f-cf25-4e27-bd45-aebf0de38114",
+        "paymentId": "zalopay",
+        "paymentName": "Zalopay - Bạn mới Zalopay nhập mã GIAMSAU - Giảm 50% tối đa 40k",
+        "image": "https://cdn.galaxycine.vn/media/2024/7/10/zalopay_1720600308412.png",
+        "order": 3
+      },
+      {
+        "isDefault": false,
+        "id": "a12e29f0-6ee0-4397-908d-d5c19268e9a3",
+        "paymentId": "onepay",
+        "paymentName": "OnePay - Visa, Master, JCB,... / ATM / QR Ngân hàng / Apple Pay",
+        "image": "https://cdn.galaxycine.vn/media/2024/9/27/logo-onepay500x500_1727411425335.png",
+        "order": 4
+      },
+      {
+        "isDefault": false,
+        "id": "0890fe3f-cf25-4e27-bd45-aebf0de38115",
+        "paymentId": "vnpay",
+        "paymentName": "VNPAY",
+        "image": "https://cdn.galaxycine.vn/media/2021/12/2/download_1638460623615.png",
+        "order": 6
+      }
+    ]
+  }
+}

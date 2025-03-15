@@ -1,0 +1,173 @@
+{
+  "response": {
+    "status": 200,
+    "code": 0,
+    "message": "OK",
+    "url": ""
+  },
+  "data": {
+    "support": {
+      "phone": "19002224",
+      "email": "hotro@galaxystudio.vn",
+      "linkFAQ": "https://www.galaxycine.vn/hoi-dap/"
+    },
+    "booking": {
+      "displayPin": true,
+      "displayVoucher": true,
+      "voucherLength": 12,
+      "noteForVoucher": "<p><span style=\"color:#e74c3c;\">Điều kiện &aacute;p dụng:</span> Voucher đang trong giai đoạn thử nghiệm n&ecirc;n chỉ &aacute;p dụng với đơn h&agrave;ng thanh to&aacute;n ho&agrave;n to&agrave;n bằng Voucher (Hợp lệ: Đơn h&agrave;ng 2 v&eacute; được &aacute;p dụng th&agrave;nh c&ocirc;ng 2 Voucher).<br />\n<!--| --></p>\n"
+    },
+    "validate": {
+      "email": "/^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w{2,3})+$/",
+      "phone": "/^(\\+*84|0)(\\d{9}|\\d{10}|\\d{11})$/i",
+      "enableSocialDistance": true
+    },
+    "vig": {
+      "exchangeRate": 10,
+      "displayReward": true
+    },
+    "movie": {
+      "movieFormats": [
+        {
+          "key": "2d-sub",
+          "order": 1
+        },
+        {
+          "key": "2d-voice",
+          "order": 2
+        },
+        {
+          "key": "3d-sub",
+          "order": 3
+        },
+        {
+          "key": "3d-voice",
+          "order": 4
+        },
+        {
+          "key": "digital-sub",
+          "order": 5
+        },
+        {
+          "key": "digital-voice",
+          "order": 6
+        },
+        {
+          "key": "imax2d-sub",
+          "order": 7
+        },
+        {
+          "key": "imax3d-sub",
+          "order": 8
+        },
+        {
+          "key": "imax2d-voice",
+          "order": 9
+        },
+        {
+          "key": "imax3d-voice",
+          "order": 10
+        },
+        {
+          "key": "laurus2d-sub",
+          "order": 11
+        },
+        {
+          "key": "laurus3d-sub",
+          "order": 12
+        },
+        {
+          "key": "laurus2d-voice",
+          "order": 13
+        },
+        {
+          "key": "laurus3d-voice",
+          "order": 14
+        },
+        {
+          "key": "lagom2d-sub",
+          "order": 15
+        },
+        {
+          "key": "lagom3d-sub",
+          "order": 16
+        },
+        {
+          "key": "lagom2d-voice",
+          "order": 17
+        },
+        {
+          "key": "lagom3d-voice",
+          "order": 18
+        },
+        {
+          "key": "laurusdigital-sub",
+          "order": 19
+        },
+        {
+          "key": "laurusdigital-voice",
+          "order": 20
+        },
+        {
+          "key": "lagomdigital-sub",
+          "order": 21
+        },
+        {
+          "key": "lagomsdigital-voice",
+          "order": 22
+        },
+        {
+          "key": "samsung2d-sub",
+          "order": 23
+        },
+        {
+          "key": "samsung3d-sub",
+          "order": 24
+        },
+        {
+          "key": "samsung2d-voice",
+          "order": 25
+        },
+        {
+          "key": "samsung3d-voice",
+          "order": 26
+        },
+        {
+          "key": "samsungdigital-sub",
+          "order": 27
+        },
+        {
+          "key": "samsungdigital-voice",
+          "order": 28
+        },
+        {
+          "key": "Q8kids2d-sub",
+          "order": 29
+        },
+        {
+          "key": "Q8kids3d-sub",
+          "order": 30
+        },
+        {
+          "key": "Q8kids2d-voice",
+          "order": 31
+        },
+        {
+          "key": "Q8kids3d-voice",
+          "order": 32
+        }
+      ]
+    },
+    "whitelist": {
+      "reward": {
+        "enable": false,
+        "emails": []
+      },
+      "subscription": {
+        "enable": true,
+        "emails": []
+      }
+    },
+    "totalDescription": "Galaxy Cinema sẽ xét duyệt hạng thành viên năm 2025 dựa vào chi tiêu của năm 2025"
+  }
+}

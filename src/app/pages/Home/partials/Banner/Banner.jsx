@@ -1,22 +1,35 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import "./Banner.scss";
 import Header from "../../../../layouts/Header";
-import data from "../../../../../mock/homepage/homepage.json";
+import coming from "../../../../../mock//comming.json";
 import info_icon from "../../../../assets/img/info_icon.png";
 import TitleCards from "../Cards";
 
 const Banner = () => {
+  const moreCardsRef = useRef(null);
+  console.log(coming.data.result);
+  const scrollToMoreCards = () => {
+    if (moreCardsRef.current) {
+      moreCardsRef.current.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="home">
       <Header />
       <div className="banner">
-        <img src={data[1].bposter} className="banner-img" />
+        <img
+          src={coming.data.result[0].imageLandscape}
+          className="banner-img"
+        />
         <div className="banner-caption">
-          <h1>{data[1].name}</h1>
-          <p>{data[1].description}</p>
+          <h1>{coming.data.result[0].name}</h1>
           <div className="banner-btns">
-            <button className="btn">ĐẶT VÉ NGAY</button>
-            <button className="btn dark-btn">
+            <Link to="/dat-ve" className="btn">
+              ĐẶT VÉ NGAY
+            </Link>
+            <button className="btn dark-btn" onClick={scrollToMoreCards}>
               <img src={info_icon} alt="" />
               Xem Thêm
             </button>
@@ -24,10 +37,9 @@ const Banner = () => {
           <TitleCards />
         </div>
       </div>
-      <div className="more-cards">
-        <TitleCards title={"PHIM SẮP CHIẾU"}/>
-        <TitleCards title={"PHIM ĐANG CHIẾU"}/>
-        <TitleCards title={"SUẤT CHIẾU ĐẶC BIỆT"}/>
+      <div className="more-cards" ref={moreCardsRef}>
+        <TitleCards title={"PHIM SẮP CHIẾU"} />
+        <TitleCards title={"PHIM ĐANG CHIẾU"} />
       </div>
     </div>
   );

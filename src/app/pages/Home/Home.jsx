@@ -2,9 +2,10 @@ import React from "react";
 import data from "../../../mock/homepage/homepage.json";
 import Banner from "./partials/Banner";
 import TitleCards from "./partials/Cards";
-const Home = () => {
-  console.log("data: ", data);
+import "./Home.scss";
+import { MergeDb } from "../../modules/MergeDb";
 
+const Home = () => {
   return (
     <div>
       {/* data */}
