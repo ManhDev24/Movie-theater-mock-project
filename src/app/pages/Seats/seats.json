@@ -1,0 +1,3572 @@
+{
+  "response": {
+    "status": 200,
+    "code": 0,
+    "message": "OK",
+    "url": ""
+  },
+  "data": {
+    "maxRow": 15,
+    "maxColumn": 29,
+    "rows": [
+      {
+        "name": "M",
+        "index": 0,
+        "seats": [
+          {
+            "id": "12",
+            "area": 2,
+            "column": 0,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 0
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 1
+              }
+            ]
+          },
+          {
+            "id": "11",
+            "area": 2,
+            "column": 1,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 0
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 1
+              }
+            ]
+          },
+          {
+            "id": "10",
+            "area": 2,
+            "column": 4,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 4
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 5
+              }
+            ]
+          },
+          {
+            "id": "9",
+            "area": 2,
+            "column": 5,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 4
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 5
+              }
+            ]
+          },
+          {
+            "id": "8",
+            "area": 2,
+            "column": 7,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 7
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 8
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "area": 2,
+            "column": 8,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 7
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 8
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "area": 2,
+            "column": 18,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 18
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 19
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "area": 2,
+            "column": 19,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 18
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 19
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "area": 2,
+            "column": 21,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 21
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 22
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "area": 2,
+            "column": 22,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 21
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 22
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "area": 2,
+            "column": 25,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 25
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 26
+              }
+            ]
+          },
+          {
+            "id": "1",
+            "area": 2,
+            "column": 26,
+            "row": 0,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 0,
+                "column": 25
+              },
+              {
+                "area": 2,
+                "row": 0,
+                "column": 26
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "L",
+        "index": 1,
+        "seats": [
+          {
+            "id": "10",
+            "area": 2,
+            "column": 6,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 6
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 7
+              }
+            ]
+          },
+          {
+            "id": "9",
+            "area": 2,
+            "column": 7,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 6
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 7
+              }
+            ]
+          },
+          {
+            "id": "8",
+            "area": 2,
+            "column": 9,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 9
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 10
+              }
+            ]
+          },
+          {
+            "id": "7",
+            "area": 2,
+            "column": 10,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 9
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 10
+              }
+            ]
+          },
+          {
+            "id": "6",
+            "area": 2,
+            "column": 13,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 13
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 14
+              }
+            ]
+          },
+          {
+            "id": "5",
+            "area": 2,
+            "column": 14,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 13
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 14
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "area": 2,
+            "column": 17,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 17
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 18
+              }
+            ]
+          },
+          {
+            "id": "3",
+            "area": 2,
+            "column": 18,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 17
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 18
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "area": 2,
+            "column": 20,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 20
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 21
+              }
+            ]
+          },
+          {
+            "id": "1",
+            "area": 2,
+            "column": 21,
+            "row": 1,
+            "status": 0,
+            "ticketPrice": 438000,
+            "categoryCode": "0000000005",
+            "description": "2D_IMAX_COUPLE",
+            "type": 2,
+            "seatsInGroup": [
+              {
+                "area": 2,
+                "row": 1,
+                "column": 20
+              },
+              {
+                "area": 2,
+                "row": 1,
+                "column": 21
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "K",
+        "index": 2,
+        "seats": [
+          {
+            "id": "17",
+            "area": 1,
+            "column": 6,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 7,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 8,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 9,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 10,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 11,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 12,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 13,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 14,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 15,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 16,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 17,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 18,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 19,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 20,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 21,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 22,
+            "row": 2,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "J",
+        "index": 4,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 4,
+            "status": 1,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 4,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "I",
+        "index": 5,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 5,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "H",
+        "index": 6,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 6,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "G",
+        "index": 7,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 7,
+            "status": 1,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 7,
+            "status": 1,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 7,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "F",
+        "index": 8,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 8,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "E",
+        "index": 10,
+        "seats": [
+          {
+            "id": "25",
+            "area": 1,
+            "column": 0,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "1",
+            "area": 1,
+            "column": 28,
+            "row": 10,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "D",
+        "index": 11,
+        "seats": [
+          {
+            "id": "24",
+            "area": 1,
+            "column": 1,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "2",
+            "area": 1,
+            "column": 27,
+            "row": 11,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "C",
+        "index": 12,
+        "seats": [
+          {
+            "id": "23",
+            "area": 1,
+            "column": 2,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "22",
+            "area": 1,
+            "column": 3,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "4",
+            "area": 1,
+            "column": 25,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "3",
+            "area": 1,
+            "column": 26,
+            "row": 12,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "B",
+        "index": 13,
+        "seats": [
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 13,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      },
+      {
+        "name": "A",
+        "index": 14,
+        "seats": [
+          {
+            "id": "21",
+            "area": 1,
+            "column": 6,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "20",
+            "area": 1,
+            "column": 7,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "19",
+            "area": 1,
+            "column": 8,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "18",
+            "area": 1,
+            "column": 9,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "17",
+            "area": 1,
+            "column": 10,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "16",
+            "area": 1,
+            "column": 11,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "15",
+            "area": 1,
+            "column": 12,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "14",
+            "area": 1,
+            "column": 13,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "13",
+            "area": 1,
+            "column": 14,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "12",
+            "area": 1,
+            "column": 15,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "11",
+            "area": 1,
+            "column": 16,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "10",
+            "area": 1,
+            "column": 17,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "9",
+            "area": 1,
+            "column": 18,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "8",
+            "area": 1,
+            "column": 19,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "7",
+            "area": 1,
+            "column": 20,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "6",
+            "area": 1,
+            "column": 21,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          },
+          {
+            "id": "5",
+            "area": 1,
+            "column": 22,
+            "row": 14,
+            "status": 0,
+            "ticketPrice": 179000,
+            "categoryCode": "0000000010",
+            "description": "2D_IMAX",
+            "type": 1,
+            "seatsInGroup": []
+          }
+        ]
+      }
+    ],
+    "packages": [
+      {
+        "ticketTypeCode": "HOICBF1BSTDVOU",
+        "title": "COMBO FRIENDS 1",
+        "content": "Đi càng đông, tiết kiệm càng nhiều",
+        "note": "",
+        "name": "",
+        "image": "https://cdn.galaxycine.vn/media/2024/12/13/menuboard-friendscombo-2024-1-02_1734057139199.jpg",
+        "description": "03 Ly nước ngọt size L + 01 Hộp bắp + 1 Snack",
+        "price": 149000,
+        "quantity": 3,
+        "minSeats": 3,
+        "maxSeats": 4,
+        "concessionCode": 5442,
+        "type": "custom",
+        "skipConcession": 1
+      },
+      {
+        "ticketTypeCode": "HOICBF2BSTDVOU",
+        "title": "COMBO FRIENDS 2",
+        "content": "Đi càng đông, tiết kiệm càng nhiều",
+        "note": "",
+        "name": "",
+        "image": "https://cdn.galaxycine.vn/media/2024/12/13/menuboard-friendscombo-2024-2-01_1734057152311.jpg",
+        "description": "04 Ly nước ngọt size L + 02 Hộp bắp + 2 Snack",
+        "price": 229000,
+        "quantity": 4,
+        "minSeats": 4,
+        "maxSeats": 5,
+        "concessionCode": 5445,
+        "type": "custom",
+        "skipConcession": 1
+      }
+    ]
+  }
+}
