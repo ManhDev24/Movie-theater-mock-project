@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { Select, Typography, Input } from "antd";
-import { sMovie } from "../../store/Store";
+import { sMovie, sMovieInfoTicket } from "../../store/Store";
 
 const { Search } = Input;
 
@@ -127,6 +127,7 @@ const BookingPage = () => {
       showtime: session,
     };
     setBookingMovieData(MovieChoose);
+    sMovieInfoTicket.set(MovieChoose);
   };
 
   useEffect(() => {
