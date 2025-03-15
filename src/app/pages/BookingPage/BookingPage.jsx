@@ -1,20 +1,36 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import { Select, Typography, Input } from "antd";
 import { sMovie } from "../../store/Store";
 
 const { Search } = Input;
 
 const BookingPage = () => {
+  // Thêm hàm chuyển đổi định dạng ngày
+  const convertDateFormat = (dateStr) => {
+    if (!dateStr) return "";
+
+    const parts = dateStr.split("-");
+    if (parts.length !== 3) return dateStr;
+
+    return `${parts[2]}/${parts[1]}/${parts[0]}`;
+  };
   const movie = sMovie.use();
   const data = movie || {};
 
   const [selectedCity, setSelectedCity] = useState(null);
   const [selectedCinema, setSelectedCinema] = useState(null);
   const [selectedMovie, setSelectedMovie] = useState(null);
+
   const [selectedDate, setSelectedDate] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredShowtimes, setFilteredShowtimes] = useState([]);
+
   const [selectedShowtime, setSelectedShowtime] = useState(null);
+
+  const cinemaRef = useRef(null);
+  const movieRef = useRef(null);
+  const dateRef = useRef(null);
+  const showtimeRef = useRef(null);
 
   const mappedCities = useMemo(() => {
     return Object.values(data).map((city) => ({
@@ -24,7 +40,10 @@ const BookingPage = () => {
   }, [data]);
 
   const cityResult = useMemo(() => {
-    return selectedCity && Object.values(data).find((city) => city.citySlug === selectedCity);
+    return (
+      selectedCity &&
+      Object.values(data).find((city) => city.citySlug === selectedCity)
+    );
   }, [data, selectedCity]);
 
   const cinemaData = useMemo(() => {
@@ -46,8 +65,16 @@ const BookingPage = () => {
   }, [movieList, selectedMovie]);
 
   const uniqueDates = useMemo(() => {
-    return [...new Set(sessions.map((session) => session.showDate.split(" ")[0]))];
+    return [
+      ...new Set(sessions.map((session) => session.showDate.split(" ")[0])),
+    ];
   }, [sessions]);
+
+  const scrollToRef = (ref) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   const handleCityChange = (value) => {
     setSelectedCity(value);
@@ -56,6 +83,8 @@ const BookingPage = () => {
     setSelectedDate(null);
     setSelectedShowtime(null);
     setFilteredShowtimes([]);
+
+    setTimeout(() => scrollToRef(cinemaRef), 100);
   };
 
   const handleCinemaClick = (cinemaId) => {
@@ -64,6 +93,8 @@ const BookingPage = () => {
     setSelectedDate(null);
     setSelectedShowtime(null);
     setFilteredShowtimes([]);
+
+    setTimeout(() => scrollToRef(movieRef), 100);
   };
 
   const handleMovieClick = (movieId) => {
@@ -71,11 +102,15 @@ const BookingPage = () => {
     setSelectedDate(null);
     setSelectedShowtime(null);
     setFilteredShowtimes([]);
+
+    setTimeout(() => scrollToRef(dateRef), 100);
   };
 
   const handleDateChange = (date) => {
     setSelectedDate(date);
     setSelectedShowtime(null);
+
+    setTimeout(() => scrollToRef(showtimeRef), 100);
   };
 
   const handleSearch = (value) => {
@@ -93,18 +128,6 @@ const BookingPage = () => {
     });
   };
 
-  
-  // useEffect(() => {
-  //   if (selectedDate && sessions.length > 0) {
-  //     const filtered = sessions.filter(
-  //       (session) => session.showDate.split(" ")[0] === selectedDate
-  //     );
-  //     setFilteredShowtimes(filtered);
-  //   } else {
-  //     setFilteredShowtimes([]);
-  //   }
-  // }, [selectedMovie, selectedDate, sessions]);
-  
   useEffect(() => {
     if (!selectedDate || !selectedMovie) {
       setFilteredShowtimes([]);
@@ -142,7 +165,10 @@ const BookingPage = () => {
             </div>
 
             {cityResult && (
-              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div
+                className="bg-white rounded-lg shadow-md p-6 mb-6"
+                ref={cinemaRef}
+              >
                 <h2 className="text-xl font-bold text-red-700 mb-4">
                   2. CHỌN RẠP CHIẾU
                 </h2>
@@ -191,7 +217,10 @@ const BookingPage = () => {
             )}
 
             {selectedCinema && Object.keys(movieList).length > 0 && (
-              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div
+                className="bg-white rounded-lg shadow-md p-6 mb-6"
+                ref={movieRef}
+              >
                 <h2 className="text-xl font-bold text-red-700 mb-4">
                   3. CHỌN PHIM
                 </h2>
@@ -233,30 +262,41 @@ const BookingPage = () => {
             )}
 
             {selectedMovie && (
-              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div
+                className="bg-white rounded-lg shadow-md p-6 mb-6"
+                ref={dateRef}
+              >
                 <h2 className="text-xl font-bold text-red-700 mb-4">
                   4. CHỌN NGÀY CHIẾU
                 </h2>
                 <div className="flex flex-wrap gap-3">
-                  {uniqueDates.map((date) => (
-                    <div
-                      key={date}
-                      className={`px-4 py-2 rounded-md border cursor-pointer transition-all duration-200 ${
-                        selectedDate === date
-                          ? "bg-red-700 text-white border-red-700"
-                          : "bg-white border-gray-300 hover:border-red-500"
-                      }`}
-                      onClick={() => handleDateChange(date)}
-                    >
-                      {date}
-                    </div>
-                  ))}
+                  {uniqueDates.map((date) => {
+                    // Chuyển đổi định dạng ngày hiển thị thành DD/MM/YYYY
+                    const formattedDate = convertDateFormat(date);
+
+                    return (
+                      <div
+                        key={date}
+                        className={`px-4 py-2 rounded-md border cursor-pointer transition-all duration-200 ${
+                          selectedDate === date
+                            ? "bg-red-700 text-white border-red-700"
+                            : "bg-white border-gray-300 hover:border-red-500"
+                        }`}
+                        onClick={() => handleDateChange(date)}
+                      >
+                        {formattedDate}
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
 
             {selectedDate && (
-              <div className="bg-white rounded-lg shadow-md p-6 mb-6">
+              <div
+                className="bg-white rounded-lg shadow-md p-6 mb-6"
+                ref={showtimeRef}
+              >
                 <h2 className="text-xl font-bold text-red-700 mb-4">
                   5. CHỌN SUẤT CHIẾU
                 </h2>
@@ -337,7 +377,9 @@ const BookingPage = () => {
                   {selectedDate && (
                     <div className="border-b pb-3 mb-3">
                       <p className="text-gray-500">Ngày chiếu</p>
-                      <p className="font-semibold">{selectedDate}</p>
+                      <p className="font-semibold">
+                        {convertDateFormat(selectedDate)}
+                      </p>
                     </div>
                   )}
 
