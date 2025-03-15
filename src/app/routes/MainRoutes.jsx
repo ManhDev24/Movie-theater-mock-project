@@ -28,6 +28,7 @@ const MainRoutes = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<PageNotFound />} />
+            <Route path="/booking" element={<SeatContainer/>} />
             <Route path="/dat-ve" element={<BookingPage />} />
           </Routes>
           <Footer />

@@ -1,47 +1,39 @@
-import React from 'react';
-import './SeatContainer.scss';
-import { sPrice,sName } from './Seats.store.jsx';
-const Seat = ({ seat, onSelectSeat }) => {
-        const handleClick = () => {
-        if (!seat.isBooked) {
-            onSelectSeat(seat.id);   
-        }
-        if(!seat.isSelected){
-            console.log(seat)
-            sPrice.set((n) => {n.value += seat.price})
-            sName.set((seatName) => {seatName.value.push( seat.row + seat.seat)})
-            
-        }
-        if(seat.isSelected){
-            sPrice.set((n) => {n.value -= seat.price})
-            sName.set((seatName) => {seatName.value.pop(seat.row + seat.seat) })
-        }
-    };
+import React from "react";
 
-    sPrice.watch((newValue) => {
-        console.log(newValue);
-      }, []);
+const Seat = ({ seat, seatName, isSelected, onClick, isDouble, isLeftSeat }) => {
+  if (!seat) return <div className="w-10 h-10"></div>; // Chỗ trống (Không có ghế)
 
-    const style = {
-        left: `${seat.x * 50}px`, 
-        top: `${seat.y * 50}px`,  
-    };
+  // Xác định style của ghế dựa trên trạng thái
+  let seatClasses = `
+    w-10 h-10 flex items-center justify-center font-bold shadow-md transition-all
+    ${seat.status === 1 ? "bg-gray-500 cursor-not-allowed" : ""}
+    ${isSelected ? "bg-green-500 hover:bg-green-600 text-white" : "bg-blue-500 hover:bg-blue-600 text-white"}
+  `;
 
-    return (
-        <div
-            className={`seat ${seat.isBooked ? 'booked' : ''} 
-            ${seat.isSelected ? 'selected' : ''} 
-            ${seat.type=="vip" ? 'vip' :''}
-            ${seat.type=="double" ? 'double' :''}
-            `
-        }
-            onClick={handleClick}
-            style={style}
-        >
-            {seat.row}{seat.seat}
-            
-        </div>
-    );
+  // Thêm style đặc biệt cho ghế đôi
+  if (isDouble) {
+    if (isLeftSeat) {
+      seatClasses += " rounded-l-md rounded-r-none border-r-0";
+    } else {
+      seatClasses += " rounded-r-md rounded-l-none border-l-0";
+    }
+    
+    // Thêm viền cho ghế đôi để hiển thị rõ là một cặp
+    seatClasses += " border-2 border-red-400";
+  } else {
+    seatClasses += " rounded-md";
+  }
+
+  return (
+    <button
+      onClick={() => onClick(seat)}
+      disabled={seat.status === 1}
+      className={seatClasses}
+      title={seat.status === 1 ? "Ghế đã được đặt" : `Ghế ${seatName} - ${seat.ticketPrice.toLocaleString()} VNĐ`}
+    >
+      {seatName}
+    </button>
+  );
 };
 
 export default Seat;
