@@ -30,7 +30,7 @@ const MainRoutes = () => {
             <Route path="*" element={<PageNotFound />} />
             <Route path="/dat-ve" element={<BookingPage />} />
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </>
       )}
     </BrowserRouter>

@@ -2,31 +2,34 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="mt-5 mb-5">
-      <div className="bg-white dark:bg-gray-900">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div className="">
+      <div className="bg-white dark:bg-black">
+        <div
+          style={{ maxWidth: "1750px" }}
+          className="mx-auto w-full  p-4 py-6 lg:py-8"
+        >
           <div className="md:flex md:justify-between">
-            <div className="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" className="flex items-center">
+            <div className="mb-6 md:mb-0 ">
+              <a href="/" className="flex items-center">
                 <img
-                  src="https://flowbite.com/docs/images/logo.svg"
-                  className="h-8 me-3"
+                  src="../src/app/assets/img/logo-theater.png"
+                  className="h-29 w-30 "
                   alt="FlowBite Logo"
                 />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                  Flowbite
+                  FTheater
                 </span>
               </a>
             </div>
-            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 mt-5">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
                   Resources
                 </h2>
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <a href="https://flowbite.com/" className="hover:underline">
-                      Flowbite
+                    <a href="/" className="hover:underline">
+                      FTheater
                     </a>
                   </li>
                   <li>
@@ -34,7 +37,7 @@ const Footer = () => {
                       href="https://tailwindcss.com/"
                       className="hover:underline"
                     >
-                      Tailwind CSS
+                      Just me bro css
                     </a>
                   </li>
                 </ul>
@@ -46,7 +49,7 @@ const Footer = () => {
                 <ul className="text-gray-500 dark:text-gray-400 font-medium">
                   <li className="mb-4">
                     <a
-                      href="https://github.com/themesberg/flowbite"
+                      href="https://github.com/ManhDev24/Movie-theater-mock-project"
                       className="hover:underline "
                     >
                       Github
@@ -54,7 +57,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="https://discord.gg/4eeurUVvTy"
+                      href="https://discord.gg/Bggrdbwp"
                       className="hover:underline"
                     >
                       Discord
@@ -83,10 +86,10 @@ const Footer = () => {
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2023{"{"}" "{"}"}
-              <a href="https://flowbite.com/" className="hover:underline">
-                Flowbite™
+            <span className="text-sm mr-3 text-gray-500 sm:text-center dark:text-gray-400">
+              © 20255&nbsp;
+              <a href="/" className="hover:underline ">
+                FTheater
               </a>
               . All Rights Reserved.
             </span>
