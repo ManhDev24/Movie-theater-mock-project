@@ -5,7 +5,7 @@ import { sMovie } from "../../store/Store";
 const { Search } = Input;
 
 const BookingPage = () => {
-  
+  const movie = sMovie.use();
   const data = movie || {};
 
   const [selectedCity, setSelectedCity] = useState(null);
@@ -41,6 +41,20 @@ const BookingPage = () => {
     return cityResult?.cinemas || {};
   }, [cityResult]);
 
+  const filteredCinemas = useMemo(() => {
+    return Object.entries(cinemaData).filter(([_, cinema]) =>
+      cinema.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+  }, [cinemaData, searchTerm]);
+
+  const movieList = useMemo(() => {
+    return selectedCinema ? cinemaData[selectedCinema]?.movies || {} : {};
+  }, [cinemaData, selectedCinema]);
+
+  const sessions = useMemo(() => {
+    return movieList[selectedMovie]?.sessions || [];
+  }, [movieList, selectedMovie]);
+
   const uniqueDates = useMemo(() => {
     return [
       ...new Set(sessions.map((session) => session.showDate.split(" ")[0])),
@@ -53,7 +67,6 @@ const BookingPage = () => {
     }
   };
 
-
   const convertDateFormat = (dateStr) => {
     if (!dateStr) return "";
 
@@ -62,7 +75,6 @@ const BookingPage = () => {
 
     return `${parts[2]}/${parts[1]}/${parts[0]}`;
   };
-
 
   const handleCityChange = (value) => {
     setSelectedCity(value);
@@ -259,7 +271,6 @@ const BookingPage = () => {
                 </h2>
                 <div className="flex flex-wrap gap-3">
                   {uniqueDates.map((date) => {
-
                     const formattedDate = convertDateFormat(date);
 
                     return (
