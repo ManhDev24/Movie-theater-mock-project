@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Banner.scss";
 import Header from "../../../../layouts/Header";
 import coming from "../../../../../mock//comming.json";
@@ -8,7 +8,6 @@ import TitleCards from "../Cards";
 
 const Banner = () => {
   const moreCardsRef = useRef(null);
-  const navigate = useNavigate();
   console.log(coming.data.result);
   const scrollToMoreCards = () => {
     if (moreCardsRef.current) {
@@ -16,9 +15,7 @@ const Banner = () => {
     }
   };
 
-  const goToMovieDetail = () => {
-    navigate(`/movie/${coming[1].id}`);
-  };
+
 
   return (
     <div className="home">
@@ -31,9 +28,9 @@ const Banner = () => {
         <div className="banner-caption">
           <h1>{coming.data.result[0].name}</h1>
           <div className="banner-btns">
-            <button className="btn" onClick={goToMovieDetail}>
+            <Link to="/dat-ve" className="btn">
               ĐẶT VÉ NGAY
-            </button>
+            </Link>
             <button className="btn dark-btn" onClick={scrollToMoreCards}>
               <img src={info_icon} alt="" />
               Xem Thêm
