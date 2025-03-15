@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import { Select, Typography, Input } from "antd";
 import { sMovie, sMovieInfoTicket } from "../../store/Store";
+import { useNavigate } from "react-router-dom";
 
 const { Search } = Input;
 
 const BookingPage = () => {
   const movie = sMovie.use();
   const data = movie || {};
+  const navigate = useNavigate();
 
   const [selectedCity, setSelectedCity] = useState(null);
   const [selectedCinema, setSelectedCinema] = useState(null);
@@ -123,6 +125,7 @@ const BookingPage = () => {
       location: cityResult?.cityName,
       cinema: cinemaData[selectedCinema]?.name,
       movie: movieList[selectedMovie]?.name,
+      movieImage: movieList[selectedMovie]?.imagePortrait,
       movieId: selectedMovie,
       showtime: session,
     };
@@ -147,7 +150,7 @@ const BookingPage = () => {
     }
   }, [selectedDate, selectedMovie, sessions]);
   const handleBookingSeat = () => {
-    console.log("BookingMovieData: ", BookingMovieData);
+    navigate("/booking");
   };
   return (
     <div className="bg-gray-100 min-h-screen pt-30">
