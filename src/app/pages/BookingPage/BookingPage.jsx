@@ -15,7 +15,7 @@ const BookingPage = () => {
   const [selectedDate, setSelectedDate] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredShowtimes, setFilteredShowtimes] = useState([]);
-
+  const [BookingMovieData, setBookingMovieData] = useState("");
   const [selectedShowtime, setSelectedShowtime] = useState(null);
 
   const cinemaRef = useRef(null);
@@ -119,13 +119,14 @@ const BookingPage = () => {
 
   const handleShowtimeClick = (session) => {
     setSelectedShowtime(session);
-    console.log({
+    const MovieChoose = {
       location: cityResult?.cityName,
       cinema: cinemaData[selectedCinema]?.name,
       movie: movieList[selectedMovie]?.name,
       movieId: selectedMovie,
       showtime: session,
-    });
+    };
+    setBookingMovieData(MovieChoose);
   };
 
   useEffect(() => {
@@ -144,7 +145,9 @@ const BookingPage = () => {
       setFilteredShowtimes([]);
     }
   }, [selectedDate, selectedMovie, sessions]);
-
+  const handleBookingSeat = () => {
+    console.log("BookingMovieData: ", BookingMovieData);
+  };
   return (
     <div className="bg-gray-100 min-h-screen pt-30">
       <div className="container mx-auto px-4 py-8">
@@ -399,6 +402,7 @@ const BookingPage = () => {
                           : "bg-gray-300 text-gray-500 cursor-not-allowed"
                       }`}
                       disabled={!selectedShowtime}
+                      onClick={handleBookingSeat}
                     >
                       TIẾP TỤC ĐẶT VÉ
                     </button>
