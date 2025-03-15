@@ -15,8 +15,6 @@ const Banner = () => {
     }
   };
 
-
-
   return (
     <div className="home">
       <Header />
@@ -40,7 +38,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="more-cards" ref={moreCardsRef}>
-        <TitleCards title={"PHIM SẮP CHIẾU"}/>
+        <TitleCards title={"PHIM SẮP CHIẾU"} />
         <TitleCards title={"PHIM ĐANG CHIẾU"} />
       </div>
     </div>
