@@ -14,11 +14,11 @@
   object-fit: cover;
   
   @media (max-width: 768px) {
-    height: 70vh; // Smaller height on mobile
+    height: 70vh;
   }
   
   @media (max-width: 480px) {
-    height: 50vh; // Even smaller on very small screens
+    height: 50vh; 
   }
 }
 
